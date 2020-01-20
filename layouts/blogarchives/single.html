@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="main content">
+	<h1>Blog archives</h1>
+	<div class="post__content clearfix">
+		{{ .Content }}
+	</div>
+	{{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}
+		<section class="archive">
+			<h2>{{ .Key }}</h2>
+
+			<div class="divTable">
+				<div class="divTableBody">
+					{{/* For some reason we have to filter out a spurious "Posts" entry */}}
+					{{ range where .Pages "Title" "!=" "Posts" }}
+						<div class="divTableRow">
+							<div class="divTableCell" style="width:10%;"><b><time>{{ .Date.Format "Jan 02" }}</time></b></div>
+							<div class="divTableCell"><a href="{{ .Permalink }}" class="permalink archivetitle">{{ .Title }}</a></div>
+						</div>
+					{{ end }}
+				</div> <!-- divTableBody -->
+			</div> <!-- divTable -->
+			<br><hr>
+		</section>
+	{{ end }}
+</div>
+</main>
+{{ end }}
