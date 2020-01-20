@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="main content">
+	<h1>Selected links</h1>
+	<div class="post__content clearfix">
+		{{ .Content }}
+	</div>
+	<div id="content">
+		{{ range $i, $v := $.Site.Data.links }}
+			{{ with $v.group }}{{ $.Scratch.SetInMap "groups" . . }}{{ end }}
+		{{ end }}
+		<div class="two-col-container">
+			{{ range $element := $.Scratch.GetSortedMapValues "groups" }}
+				<div class="two-col-item">
+					<h4 class="linkheading">{{ $element }}</h3>
+					<ul>
+						{{ range $.Site.Data.links }}
+							{{ if eq .group $element }}
+								<li><a href="{{ .link }}" class="linkpage">{{ .title | html }}</a></li>
+							{{ end }}
+						{{ end }}
+					</ul>
+					<br>
+				</div>
+		{{ end }}
+	</div>
+</main>
+{{ end }}
