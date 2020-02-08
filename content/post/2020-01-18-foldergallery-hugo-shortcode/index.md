@@ -41,14 +41,17 @@ Eventually I settled on [this shortcode](https://greekdeveloper.com/2018/folder-
     {{ $path := print "static/img/" (.Get "src")  }}
     {{ $url  := print (.Get "src") }}
     {{ range (readDir $path)  }}
-        {{ $src := print "/img" "/" $url "/" .Name }}
-        {{/*
-            troubleshoot the $src variable as needed
-            <!-- <p>{{ $src }}</p> -->
-        */}}
-        <a data-fancybox="gallery" href="{{ $src }}">
-            <img src="{{ $src }}">  <br/>
-        </a>
+        {{/* don't try to display .DS_Store or directories */}}
+        {{ if and (ne .Name ".DS_Store") (not .IsDir)  }}
+            {{ $src := print "/img" "/" $url "/" .Name }}
+            {{/*
+                troubleshoot the $src variable as needed
+                <!-- <p>{{ $src }}</p> -->
+                */}}
+            <a data-fancybox="gallery" href="{{ $src }}">
+                <img src="{{ $src }}">  <br/>
+            </a>
+        {{ end }}
     {{ end }}
 </div>
 {{< /highlight >}}
