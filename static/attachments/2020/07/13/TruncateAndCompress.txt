@@ -1,0 +1,3 @@
+SelectAll:
+TruncateSilence:Action="Truncate Detected Silence" Compress="50" Independent="0" Minimum="0.5" Threshold="-20" Truncate="0.5"
+Compressor:AttackTime="0.2" NoiseFloor="-40" Normalize="1" Ratio="2" ReleaseTime="1" Threshold="-12" UsePeak="0"

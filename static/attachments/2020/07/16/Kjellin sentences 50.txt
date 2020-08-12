@@ -1,0 +1,8 @@
+SelectAll:
+ChangeTempo:Percentage="-50" SBSMS="1"
+SelEnd:
+Select:End="-0.65" Mode="Set" RelativeTo="SelectionEnd" Start="0"
+Silence:Use_Preset="User Preset:650ms"
+SelectAll:
+CursSelEnd:
+Repeat:Count="5"
