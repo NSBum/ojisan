@@ -13,6 +13,8 @@ tags:
 categories:
 - linguistics
 ---
+_N.B. This script [has been updated](/2020/07/04/scripting-apple-music-on-macos-for-chorus-repetition-practice/) to work with the new Music app on macOS 10.15 Catalina. 2020-07-04._
+
 That title is a mouthful!
 
 TL;DR: One approach to developing good second language pronunciation and rhythm is to repeat a sentence many times while simultaneously listening to a native speaker. If you do this while gradually reducing the source amplitude, you will be speaking on your own without help. This is an AppleScript that automates this process on the Mac platform.
