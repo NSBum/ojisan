@@ -23,6 +23,7 @@ pygmentsUseClasses = true
   post_navigation = true
   postSections = ["post"]
   highlightColor = "#5d6464"
+  customCSS = ["css/hugo-easy-gallery.css","css/link-page.css","css/russian-shortcode.css"]
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page

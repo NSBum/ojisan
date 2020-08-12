@@ -19,8 +19,13 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{ end -}}
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<!-- main style sheet -->
 	{{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . -}}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	<!-- syntax style sheet -->
+	{{ $styleSyntax := resources.Get "css/syntax.css" | resources.ExecuteAsTemplate "css/syntax.css" . -}}
+	<link rel="stylesheet" href="{{ $styleSyntax.RelPermalink }}">
+
 	{{ range .Site.Params.customCSS -}}
 	<link rel="stylesheet" href="{{ . | relURL }}">
 	{{- end }}
