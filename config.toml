@@ -2,10 +2,11 @@ baseurl = "/"
 title = "セイウチおじさん Ojisan Seiuchi"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
-theme = "sideroad"
+theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 disablePathToLower = false
+pygmentsUseClasses = true
 
 [Author]
   name = "Alan Duncan"
@@ -21,6 +22,7 @@ disablePathToLower = false
   authorbox = true
   post_navigation = true
   postSections = ["post"]
+  highlightColor = "#5d6464"
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
