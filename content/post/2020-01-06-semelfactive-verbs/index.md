@@ -19,6 +19,8 @@ It turns out that a [semelfactive](https://en.wikipedia.org/wiki/Semelfactive) i
 
 - **Punctuality** - The action is instantaneous, requiring only a moment of time.
 - **Perfective** - The action being described is complete; and the focus is on completion.
-- **Atelic**^[[Telicity](https://en.wikipedia.org/wiki/Telicity) itself an interesting concept. It's not completely clear how to distinguish between telicity and the concept of verbal aspect, which is so important in Russian. An atelic verb, like a perfective verb, describes an action that has been completed.] - There is no end of the action.
+- **Atelic**[^1] - There is no end of the action.
 
 In Russian, semelfactives include: {{< russian >}}крикнуть{{< /russian >}}, {{< russian >}}махнуть{{< /russian >}}, and {{< russian >}}плюнуть{{< /russian >}}.
+
+[^1]: [Telicity](https://en.wikipedia.org/wiki/Telicity) itself an interesting concept. It's not completely clear how to distinguish between telicity and the concept of verbal aspect, which is so important in Russian. An atelic verb, like a perfective verb, describes an action that has been completed.
