@@ -24,6 +24,9 @@ There is currently no facility for deploying the site. Simply build and use Tran
 
 ### References
 
-- [Chroma styles](https://xyproto.github.io/splash/docs/) - syntax highlighter styles
-- [Chroma syntax highlighter](https://github.com/alecthomas/chroma) - project page for the syntax highlighter in use by Hugo.
-- [Hugo syntax highlighting](https://gohugo.io/content-management/syntax-highlighting/#readout) - documentation page for Hugo syntax colouring
+- Syntax highlighting in Hugo
+	- [Chroma styles](https://xyproto.github.io/splash/docs/) - syntax highlighter styles
+	- [Chroma syntax highlighter](https://github.com/alecthomas/chroma) - project page for the syntax highlighter in use by Hugo.
+	- [Hugo syntax highlighting](https://gohugo.io/content-management/syntax-highlighting/#readout) - documentation page for Hugo syntax colouring
+- Hugo data handling/templating
+	- [Working with data in Hugo](https://harrycresswell.com/articles/data-hugo/) - a tutorial on dealing with data in Hugo templates
