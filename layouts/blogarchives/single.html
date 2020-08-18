@@ -7,14 +7,14 @@
 	{{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}
 		<section class="archive">
 			<h2>{{ .Key }}</h2>
-
 			<div class="divTable">
 				<div class="divTableBody">
 					{{/* For some reason we have to filter out a spurious "Posts" entry */}}
 					{{ range where .Pages "Title" "!=" "Posts" }}
 						<div class="divTableRow">
-							<div class="divTableCell" style="width:10%;"><b><time>{{ .Date.Format "Jan 02" }}</time></b></div>
+							<div class="divTableCell" style="font-size:18px; width:10%;"><b><time>{{ .Date.Format "Jan 02" }}</time></b></div>
 							<div class="divTableCell"><a href="{{ .Permalink }}" class="permalink archivetitle">{{ .Title }}</a></div>
+							<br>
 						</div>
 					{{ end }}
 				</div> <!-- divTableBody -->
@@ -22,6 +22,5 @@
 			<br><hr>
 		</section>
 	{{ end }}
-</div>
 </main>
 {{ end }}
