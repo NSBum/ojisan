@@ -8,8 +8,20 @@
 			<div class="widget-taglist widget">
 				<h4 class="widget__title">{{ T "tags_title" }}</h4>
 				<div class="widget__content">
+                    {{ $letters := split "abcdefghiklmnopqrstuvwxyz" "" }}
 					{{- range $name, $items := .Site.Taxonomies.tags }}
-						<a class="widget-taglist__link widget__link btn" href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}" title="{{ $name | humanize }}">{{ $name | humanize }}{{ if $.Site.Params.widgets.tags_counter }} ({{ $items.Count }}){{ end }}</a>
+                        {{ $firstChar := substr .Page.Title 0 1 | lower }}
+                        {{ if $firstChar | in $letters }}
+                            {{ $curLetter := $.Scratch.Get "curLetter" }}
+                            <!-- if $curLetter isn't set or the letter has changed -->
+                            {{ if ne $firstChar $curLetter }}
+                                <!-- update the current letter and print it -->
+                                {{ $.Scratch.Set "curLetter" $firstChar }}
+                                <br><span class="tag__letter">{{ $firstChar | upper }}</span><br />
+                            {{ end }}
+        					<a class="widget-taglist__link widget__link btn" href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}" title="{{ $name | humanize }}">{{ $name | humanize }}{{ if $.Site.Params.widgets.tags_counter }} ({{ $items.Count }}){{ end }}</a>
+                        {{ end }}
+
 					{{- end }}
 				</div>
 			</div>
