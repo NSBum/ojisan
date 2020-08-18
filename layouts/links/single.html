@@ -7,15 +7,23 @@
 	<div id="content">
 		{{ range $i, $v := $.Site.Data.links }}
 			{{ with $v.group }}{{ $.Scratch.SetInMap "groups" . . }}{{ end }}
+
 		{{ end }}
 		<div class="two-col-container">
-			{{ range $element := $.Scratch.GetSortedMapValues "groups" }}
+			{{/* this is the only way I found to sort the keys */}}
+			{{ $.Scratch.Set "gnames" (sort ($.Scratch.GetSortedMapValues "groups")) }}
+			{{ range $element := $.Scratch.Get "gnames" }}
 				<div class="two-col-item">
-					<h4 class="linkheading">{{ $element }}</h3>
+					<h4 class="linkheading">{{ $element }}</h4>
 					<ul>
 						{{ range $.Site.Data.links }}
 							{{ if eq .group $element }}
-								<li><a href="{{ .link }}" class="linkpage">{{ .title | html }}</a></li>
+								<li>
+									<a href="{{ .link }}" class="linkpage">{{ .title | html }}</a>
+									{{ if .comment }}
+										<span class="linkcomment"> - {{ .comment | html }}</span>
+									{{ end }}
+								</li>
 							{{ end }}
 						{{ end }}
 					</ul>
