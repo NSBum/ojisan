@@ -25,9 +25,16 @@ a.linkpage {
 	font-family: 'Source Serif Pro','PT Serif','Noto Serif', serif;
     border-bottom: dotted 1px silver;
     text-decoration: none;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3d4044;
     transition: color .2s ease, border-bottom-color 0.2s ease;
+}
+
+span.linkcomment {
+    font-family: 'Source Serif Pro','PT Serif','Noto Serif', serif;
+    color: #737a81;
+    font-weight: 300;
 }
 
 .linkheading {
