@@ -15,7 +15,7 @@ weight: -10
 おじさんセイウチ in hiragana, one of the Japanese syllabaries. It means "Uncle Walrus." That's a long story.^[Here's the long story. When I was a kid, our school offered a Russian language class. It was during the Cold War and a Soviet takeover seemed to be on everyone's minds; so why not? In the class, we learned that they call Santa Claus "Дед Мороз" which means "Grandfather Frost." I thought it was a funny name because it sounds like "дядя морж" which means "Uncle Walrus." So there.]
 
 ### _What do you do for a living?_
-I teach my daughter, age 9, at home. So you could say I'm a home educator. It is a full time job.
+I'm a bon vivant.
 
 ### _That's it?_
 Of course not.
