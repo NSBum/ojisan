@@ -16,7 +16,7 @@ I don't have many strongly-held beliefs; but one is that we are all better off w
 - voiced, unvoiced consonants, sonants
 - Participles
 - Impersonal pronouns and all their variants, {{< russian >}}что-нибудь, что-то, и.т.д.{{< /russian >}}
-- memorize list of verbs that govern the instrumental
+- Memorize list of verbs that govern the instrumental
 
 ### Economics
 
