@@ -9,10 +9,15 @@
 	{{/* the most recent post is rendered in full */}}
 	{{/* thereafter, summaries */}}
 	{{- range $index, $value := $paginator.Pages }}
-		{{- if eq $index 0 }}
+		{{- if lt $index 2 }}
 			<article class="post">
 				<header class="post__header">
-					<h1 class="post__title">{{ .Title }}</h1>
+					<!-- post title like summary -->
+					<h3 class="list__title post__title ">
+						<a href="{{ .RelPermalink }}" rel="bookmark">
+							{{ .Title }}
+						</a>
+					</h3>
 					{{- with .Params.lead }}
 					<p class="post__lead">{{ . }}</p>
 					{{- end }}
@@ -35,7 +40,7 @@
 				</footer>
 				{{- end }}
 			</article>
-			
+
 		{{- else }}
 			{{- $value.Render "summary" }}
 		{{- end }}
