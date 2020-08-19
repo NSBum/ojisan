@@ -20,3 +20,4 @@ A compilation of books and short works of fiction that I've read by year along w
 - **How to Do Nothing** (Jenny Odell) - This was on Obama's 2019 summer reading list. Reclaiming attention from the online attention economy by investing attention in your local bioregion.
 - **The Noise of Time** (Julian Barnes) - Interesting historical novel about Shostakovich. Now I want to read more about the composer and investigate Julian Barnes more. He seems to turn an artful sentence.
 - **The Rise and Fall of DODO** (Neal Stephenson and Nicole Galland) - I had enjoyed Seveneves after finding it on one of Obama's readings lists. This book was enjoyable science fiction, interesting but a a little far-fetched. (Or can you actually say that about science fiction?)
+- **The Language Instinct** (Steven Pinker)
