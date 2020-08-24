@@ -2,7 +2,7 @@ baseurl = "/"
 title = "セイウチおじさん Ojisan Seiuchi"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
+theme = ["mainroad", "hugo-shortcode-gallery"]
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 disablePathToLower = false
@@ -45,3 +45,5 @@ pygmentsUseClasses = true
     archive = "archives"
     category = "categories"
     group = "group"
+
+galleryLoadJQuery = true

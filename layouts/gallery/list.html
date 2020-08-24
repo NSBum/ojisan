@@ -1,0 +1,59 @@
+{{ define "main" }}
+<main class="main content">
+	<div class="post__content clearfix">
+			{{ .Content }}
+	</div>
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "gallery") }}
+    {{/* the most recent post is rendered in full */}}
+    {{/* thereafter, summaries */}}
+    {{- range $index, $value := $paginator.Pages }}
+        {{- if lt $index 0 }}
+            <article class="post">
+                <header class="post__header">
+                    <!-- post title like summary -->
+                    <h3 class="list__title post__title ">
+                        <a href="{{ .RelPermalink }}" rel="bookmark">
+                            {{ .Title }}
+                        </a>
+                    </h3>
+                    {{- with .Params.lead }}
+                    <p class="post__lead">{{ . }}</p>
+                    {{- end }}
+                    {{ with partial "post_meta.html" . -}}
+                    <div class="post__meta meta">{{ . }}</div>
+                    {{- end }}
+                </header>
+                {{- if .Params.thumbnail }}
+                <figure class="post__thumbnail">
+                    <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
+                </figure>
+                {{- end }}
+                {{- partial "post_toc.html" . -}}
+                <div class="content post__content clearfix">
+                    {{- $value.Content }}
+                </div>
+                {{- if .Params.tags }}
+                <footer class="post__footer">
+                    {{ partial "post_tags.html" . }}
+                </footer>
+                {{- end }}
+            </article>
+
+        {{- else }}
+            {{- $value.Render "summary" }}
+        {{- end }}
+    {{- end }}
+    {{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
+        <div class="warning">
+            {{ partial "svg/files.svg" (dict "class" "warning__icon") }}
+            <h3 class="warning__headline">{{ T "noposts_warning_title" | safeHTML }}</h3>
+            <div class="warning__text">
+                <p class="warning__description">{{ T "noposts_warning_description" | safeHTML }}</p>
+                <p class="warning__tip">{{ T "noposts_warning_tip" | safeHTML }}</p>
+            </div>
+        </div>
+    {{ end }}
+    <p>pikachu</p>
+    </main>
+    {{ partial "pagination.html" . }}
+    {{ end }}
