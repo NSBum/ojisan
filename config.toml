@@ -23,7 +23,7 @@ pygmentsUseClasses = true
   post_navigation = true
   postSections = ["post"]
   highlightColor = "#5d6464"
-  customCSS = ["css/hugo-easy-gallery.css","css/link-page.css","css/russian-shortcode.css"]
+  customCSS = ["css/hugo-easy-gallery.css","css/link-page.css","css/russian-shortcode.css","css/photogallery.css"]
   post_meta = ["date", "categories", "translations"]
 
 [Params.sidebar]
@@ -46,4 +46,4 @@ pygmentsUseClasses = true
     category = "categories"
     group = "group"
 
-galleryLoadJQuery = true
+timeout = 60000
