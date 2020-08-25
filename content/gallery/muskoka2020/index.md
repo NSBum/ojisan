@@ -1,7 +1,7 @@
 ---
 title: "Muskoka cottage week 2020"
 date: 2020-08-18T18:23:20-04:00
-draft: true
+draft: false
 authorbox: false
 sidebar: false
 type: "gallery"

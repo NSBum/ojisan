@@ -1,7 +1,7 @@
 ---
 title: "July 2020"
 date: 2020-07-30T18:23:20-04:00
-draft: true
+draft: false
 authorbox: false
 sidebar: false
 type: "gallery"
