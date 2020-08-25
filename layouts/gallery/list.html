@@ -6,7 +6,11 @@
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "gallery") }}
     {{/* the most recent post is rendered in full */}}
     {{/* thereafter, summaries */}}
-    {{- range $index, $value := $paginator.Pages }}
+    {{- range $index, $value := $paginator.Pages.GroupByDate "2006" }}
+
+    <h2>{{ substr .Key -1 4 }}</h2>
+    {{- range sort .Pages }}
+
         {{- if lt $index 0 }}
             <article class="post">
                 <header class="post__header">
@@ -40,7 +44,8 @@
             </article>
 
         {{- else }}
-            {{- $value.Render "summary" }}
+            {{- .Render "summary" }}
+        {{- end }}
         {{- end }}
     {{- end }}
     {{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
@@ -53,7 +58,6 @@
             </div>
         </div>
     {{ end }}
-    <p>pikachu</p>
     </main>
     {{ partial "pagination.html" . }}
     {{ end }}
