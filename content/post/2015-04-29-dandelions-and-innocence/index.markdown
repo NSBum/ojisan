@@ -3,13 +3,14 @@ layout: post
 title: "Dandelions and innocence"
 date: 2015-04-29 06:32:42 -0500
 aliases: ['/2015/04/29/dandelions-and-innocence/']
+authorbox: false
 categories:
 - miscellaneous
 tags:
 - culture
 - environment
 ---
-{{< figure src="images/dandelion.jpg" title="" >}}
+{{< figure src="/images/2015/04/29/dandelion.jpg" title="" >}}
 
 Spring has finally arrived in Minnesota. So have dandelions.
 

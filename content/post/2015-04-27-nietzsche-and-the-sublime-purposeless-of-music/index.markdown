@@ -2,6 +2,7 @@
 layout: post
 title: "Nietzsche and the sublime purposeless of music"
 date: 2015-04-27 17:46:12 -0500
+authorbox: false
 aliases: ['/2015/04/27/nietzsche-and-the-sublime-purposeless-of-music/']
 categories:
 - music
@@ -9,7 +10,7 @@ tags:
 - philosophy
 - music
 ---
-{{< figure src="images/Nietzsche-piano.jpg" title="Nietzsche at the piano" >}}
+{{< figure src="/images/2015/04/27/Nietzsche-piano.jpg" title="Nietzsche at the piano" >}}
 
 I have always been troubled in some ill-defined way by articles that assert the benefits of music in some tangible way. For example, kids with music training do better at math. (I don't if that's true or not; but you get the style of what I'm talking about.) The unwritten inference is something like this: _"No one but a fool or the spectacularly talented would regard music as an economically-valid life path; but math might be. So have your kids play music so they will make good grades and get into an Ivy League school."_
 

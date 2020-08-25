@@ -2,6 +2,7 @@
 layout: post
 title: "Middle class economics and false dichotomies"
 date: 2015-04-11 08:17:31 -0500
+authorbox: false
 aliases: ['/2015/04/11/middle-class-economics-and-false-dichotomies/']
 categories:
 - miscellaneous

@@ -3,6 +3,7 @@ layout: post
 title: "Private virtues v. public life"
 date: 2015-04-08 06:38:59 -0500
 comments: true
+authorbox: false
 aliases: ['/2015/04/08/private-virtues-v-public-life/']
 categories:
 - politics
