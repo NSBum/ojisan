@@ -1,7 +1,7 @@
 ---
 title: "Automated marking of Russian syllabic stress"
 date: 2020-08-18T18:23:20-04:00
-draft: true
+draft: false
 authorbox: false
 sidebar: false
 tags:
