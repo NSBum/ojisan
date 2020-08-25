@@ -1,13 +1,13 @@
 ---
-title: "Muskoka cottage week 2020"
-date: 2020-08-18T18:23:20-04:00
+title: "July 2020"
+date: 2020-07-30T18:23:20-04:00
 draft: true
 authorbox: false
 sidebar: false
 type: "gallery"
 ---
 
-We spent a wonderful week in August up in the Muskoka lakes region. It was a relaxing time, reconnecting as a family, playing on the river, reading and napping.
+July 2020 was a hot and dry month. Still in quarantine but the garden was insanely prolific.
 
 <!--more-->
 
