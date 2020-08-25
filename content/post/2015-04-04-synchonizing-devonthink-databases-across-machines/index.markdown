@@ -2,6 +2,7 @@
 layout: post
 title: "Synchonizing DEVONthink databases across machines"
 date: 2015-04-04 06:51:52 -0500
+authorbox: false
 aliases: ['/2015/04/04/synchonizing-devonthink-databases-across-machines/']
 categories:
 - organization
@@ -25,7 +26,7 @@ Here's how I do it.
 3. On the destimation machine, copy the DEVONthink database from the directory that BTS is synchronizing to the directory where you want to store your databases. _(Again, note that I don't actually use BTS to sync the database itself. Right now, we're just using it to transfer an identical copy of the database from the source to destination machine. You could just as easily use a USB stick for this step.)_
 4. Delete the database from the BTS-synced folder. Remember that it was just there to copy to the destination machine.
 5. On the source machine, set up a local sync store: _DEVONthink Pro Office > Preferences > Sync_
-{{< figure src="images/dtpo-sync-001.png" title="DEVONthink Pro Office synchronization" >}}
+{{< figure src="/images/2015/04/04/dtpo-sync-001.png" title="DEVONthink Pro Office synchronization" >}}
 6. Select your database and choose _+_ > _Add new local sync..._. Choose a location in the __directory that BTS is syncronizing__.
 7. Press _Sync Now_ to synchronize.
 8. Now, on the destination machine, go to the sync preferences: _DEVONthink Pro Office > Preferences > Sync_.

@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <main class="main content">
+    	<div class="post__content clearfix">
+    			{{ .Content }}
+    	</div>
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "gallery") }}
+        {{/* the most recent post is rendered in full */}}
+        {{/* thereafter, summaries */}}
+        {{- range $index, $value := $paginator.Pages.GroupByDate "2006" }}
+            <h2>{{ substr .Key -1 4 }}</h2>
+            {{- range sort .Pages }}
+                {{- .Render "gallerysummary" }}
+            {{- end }} {{/* page range */}}
+        {{- end }} {{/* group range */}}
+        {{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
+            <div class="warning">
+                {{ partial "svg/files.svg" (dict "class" "warning__icon") }}
+                <h3 class="warning__headline">{{ T "noposts_warning_title" | safeHTML }}</h3>
+                <div class="warning__text">
+                    <p class="warning__description">{{ T "noposts_warning_description" | safeHTML }}</p>
+                    <p class="warning__tip">{{ T "noposts_warning_tip" | safeHTML }}</p>
+                </div>
+            </div>
+        {{ end }}
+    </main>
+    {{ partial "pagination.html" . }}
+{{ end }}

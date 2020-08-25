@@ -2,7 +2,7 @@ baseurl = "/"
 title = "セイウチおじさん Ojisan Seiuchi"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
+theme = ["mainroad", "hugo-shortcode-gallery"]
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 disablePathToLower = false
@@ -23,7 +23,7 @@ pygmentsUseClasses = true
   post_navigation = true
   postSections = ["post"]
   highlightColor = "#5d6464"
-  customCSS = ["css/hugo-easy-gallery.css","css/link-page.css","css/russian-shortcode.css"]
+  customCSS = ["css/hugo-easy-gallery.css","css/link-page.css","css/russian-shortcode.css","css/photogallery.css"]
   post_meta = ["date", "categories", "translations"]
 
 [Params.sidebar]
@@ -45,3 +45,5 @@ pygmentsUseClasses = true
     archive = "archives"
     category = "categories"
     group = "group"
+
+timeout = 60000

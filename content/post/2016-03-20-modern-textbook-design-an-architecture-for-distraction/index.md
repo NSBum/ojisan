@@ -2,6 +2,9 @@
 title: 'Modern textbook design: an architecture for distraction'
 date: 2016-03-20 16:05:35
 aliases: ['/2016/03/20/Modern-textbook-design-an-architecture-for-distraction/']
+draft: false
+authorbox: false
+sidebar: false
 tags:
 - design
 - education
@@ -12,11 +15,11 @@ The design of textbooks in common use at all levels from elementary school throu
 
 I'll start with a mathematics textbook used in Canada in Grade 6, the Pearson "Math Makes Sense" text. A sample page is depicted below.
 
-{{< figure src="images/original_sm.jpg" title="Improved page" link="images/fullpage.jpg" >}}
+{{< figure src="/images/2016/03/20/original_sm.jpg" title="Improved page" link="/images/2016/03/20/fullpage.jpg" >}}
 
 The most obvious design abuse is the heavy graphical "fluff" on the page. When the margin is included, the top banner takes up 19% of the vertical extent of the page and its sole purpose is to identify the page as the beginning of the third lesson which is about multiples.
 
-{{< figure src="images/irrelevant.jpg" class="left" >}}
+{{< figure src="/images/2016/03/20/irrelevant.jpg" class="left" >}}
 
 Within the body of the page, the most egregious offense is an enormous photograph of a radio announcer with a speech bubble that says nothing about the mathematical concept being presented. This gratuitous figure takes up about 18% of the content area of the page. It would be a minor offense if it wasted only the paper, but it wastes a far scarcer resource - the student's attention. The figure adds nothing to the concept that the authors are trying to present, so it should be removed. This is a textbook for 6th graders who are in no need of infantilization. Unnecessary silly graphics degrade the importance of the content and invariably lead students to conclude that the content is as unimportant as a radio call-in contest.
 
@@ -26,14 +29,14 @@ The page footer is less intrusive by unnecessarily complex. There is no need for
 
 Other examples of violations of good taste in typography and color can easily be cleaned up. A more serious issue is how the authors chose to present the identification of common multiples. Look closely at the following chart:
 
-{{< figure src="images/table.jpg" title="Table errors" >}}
+{{< figure src="images/2016/03/20/table.jpg" title="Table errors" >}}
 
 It depicts a "one hundred board" - a graphic that will be familiar to most students. But no key is provided. It takes a bit of detective work to figure out that the multiples of 6 are circled and the multiples of 4 are embedded in a green background. But what about the numbers with a yellow background? They mean nothing. The yellow was used gratuitously to give a splash of color to the page. But again, it's worse than gratuitous, it could be misleading or just slow the student down in understanding the concept. We can easily reformat the table to remove extraneous signals and to apply the principle of minimum necessary difference:
 
-{{< figure src="images/table_improved.jpg" title="Improved table" >}}
+{{< figure src="images/2016/03/20/table_improved.jpg" title="Improved table" >}}
 
 The new table is not alarmingly large. Its grid is just distinct enough to see the structure without making the figures appear to be imprisoned at Alcatraz. And the typeface is the more legible Gill Sans. Instead of using the mixed signals for cell color, I've used a consistent white background color with only multiples of 4 colored medium red. I don't have a problem with the ragged edge border, although a more authentic representation would should the last row of the standard table with figures to 100. But this redesign will suffice.
 
 By cleaning up the typography, removing gratuitous graphics, simplifying the table and linking it more logically to the text, the page has a less distracting appearance.
 
-{{< figure src="images/page_improved_sm.jpg" title="Improved style" link="pdf/page_improved.pdf" >}}
+{{< figure src="images/2016/03/20/page_improved_sm.jpg" title="Improved style" link="pdf/page_improved.pdf" >}}

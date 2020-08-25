@@ -1,6 +1,7 @@
 ---
 title: "The Art of Just Enough"
 date: 2015-08-15 21:38:04 -0500
+authorbox: false
 categories:
 - miscellaneous
 tags:
@@ -8,11 +9,11 @@ tags:
 - financial
 - culture
 ---
-{{< figure src="images/simplicity.jpg" title="" >}}
+{{< figure src="/images/2015/08/15/simplicity.jpg" title="" >}}
 
 In the popular sci-fi movie series _"The Matrix"_, a handful of humans discover that the perception of reality has been artificially engineered by computer software. By taking the red pill[^1] a person can be released from the deception, thereby seeing things as they truly are. About material "stuff", I've had the same sort of epiphany.
 
-Three years ago, we decided we needed to build a house. We weren't pleased with our previous neighborhood; and we happened on a piece of land that seemed to fit our needs. We began working with a builder to design a house. Despite our intent to build a smaller house, the design ended up being considerably larger than the house we were already in. Everything was to be custom-designed and fabricated. All of the fixtures were selected. We had spent hundreds of hours thinking about the designs, going to meetings, reading books, looking at photographs. It was an enormous investment of time and a significant investment of money.
+Three years ago, we decided we needed to build a house. We weren't pleased with our previous neighbourhood; and we happened on a piece of land that seemed to fit our needs. We began working with a builder to design a house. Despite our intent to build a smaller house, the design ended up being considerably larger than the house we were already in. Everything was to be custom-designed and fabricated. All of the fixtures were selected. We had spent hundreds of hours thinking about the designs, going to meetings, reading books, looking at photographs. It was an enormous investment of time and a significant investment of money.
 
 Eventually, we had an epiphany. I couldn't sleep and felt restless. We had been living with a constant sense of anxiety about the money, about the pace of the planning, and about the future house becoming an anchor. We stayed awake talking about it until nearly 1 AM. The next morning we called off the project.
 

@@ -3,12 +3,13 @@ layout: post
 title: "First experience with astrophotography"
 date: 2015-05-08 06:11:41 -0500
 aliases: ['/2015/05/08/first-experience-with-astrophotography/']
+authorbox: false
 categories:
 - miscellaneous
 tags:
 - photography
 ---
-{{< figure src="images/volcano_star_lg.jpg" title="Halema'uma'u eruption and stars" caption="(Sony A7 35/2.8 Zeiss)" >}}
+{{< figure src="/images/2015/05/08/volcano_star_lg.jpg" title="Halema'uma'u eruption and stars" caption="(Sony A7 35/2.8 Zeiss)" >}}
 
 One of the great things about shooting with a camera like the Sony A7 that has an advanced sensor is that you can shoot astrophotographs with less noise that ever before. This comes into play with the inevitably long exposures you encounter when shooting the night sky. On a recent trip to view Kilauea volcano as we've done many times, I wondered if it might be possible to capture both the volcano and the star-filled sky in the same shot; so I began to research a bit on astrophotography. I'm by no means an expert; but I've learned a bit.
 
@@ -24,7 +25,7 @@ We stayed one night at the historic Volcano House overlooking Halema'uma'u Crate
 
 I woke up again at 1 AM to my alarm, peered outside and saw clear views of the glowing vent; so I packed my equipment and started hiking about a mile down to the steam vents. I ended up taking the wrong trail in the complete blackness; and while backtracking, the clouds and fog rolled in again. This time, visibility was reduced to a few feet. I eventually made it back to the room and slept another hour. At that point, I began consulting the Hawaii Volcanos Observatory webcams. I figured that if they were showing clear views of the vent, then I should be able to drive down to a point close enough to walk, fire off a few shots before the fog came in again. Sure enough, around 2:30 AM, I caught a glimpse of the vent looking sharp on the webcam. Again, I grabbed my gear and sped off in the Jeep. After about a 300 yard walk, I found a spot with a beautiful view of the glowing gasses. Every now and then you could catch the sound of the lava rumbling in the crater. It was a spectacular experience. Since the stars were out, my goal was to capture both the star field and the crater. So many of the photos were taken with the Voigtländer 15 mm Leica M-mount lens. It's a so-so lens overall; but it certainly gave some nice sweeping views.
 
-{{< figure src="images/2015_02_19_04_37_55-Edit.jpg" title="Halema’uma’u eruption and stars" caption="(Sony A7 15 mm ISO 6400, 15s)">}}
+{{< figure src="/images/2015/05/08/2015_02_19_04_37_55-Edit.jpg" title="Halema’uma’u eruption and stars" caption="(Sony A7 15 mm ISO 6400, 15s)">}}
 
 ### Process
 
