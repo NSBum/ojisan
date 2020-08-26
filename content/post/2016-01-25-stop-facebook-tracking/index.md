@@ -2,13 +2,14 @@
 title: Stop Facebook tracking
 date: 2016-01-25 06:37:50
 aliases: ['/2016/01/25/Stop-Facebook-tracking/']
+authorbox: false
 tags:
 - technology
 - culture
 categories:
 - technology
 ---
-{{< figure src="images/web.jpg" alt="network" >}}
+{{< figure src="/images/2016/01/25/web.jpg" alt="network" >}}
 
 Although I understand Facebook's business model and I (basically) understand how money is made on the internet, I have no compunction about blocking ads, trackers, beacons and all manner of scripts. The current system creates layers upon layers of networks that exist to track one's activities on the internet and market products and services more specifically. The problem is that unless I take specific action, I don't get to choose what I reveal to companies that want to track me. Some have argued that using services like Facebook constitutes an implied contract between you - the user, and the internet application provider. It's a ridiculous argument because I could make a similar argument that my use of their service implies a contract not to track.
 
@@ -20,7 +21,7 @@ The Digital Advertising Alliance allows you register your advertising preference
 
 ### Use Ghostery
 
-{{< figure src="images/trackers.png" caption="Ghostery blocks trackers" class="left" >}}
+{{< figure src="/images/2016/01/25/trackers.png" caption="Ghostery blocks trackers" class="left" >}}
 
 The browser extension Ghostery works with a number of different browers to block scripts that provide information about your browsing to third parties (and fourth, fifth, and sixth...) For example, I visited the theverge.com, a technology-oriented site ahd Ghostery reported at 11 trackers, beacons, and widgets. Mind you, perhaps the previous step of registering with the Digital Advertising Alliance is sufficient to block many of these scripts. But since participation by the companies is voluntary, I would prefer to block them on my end also. Ghostery is very easy to use and has the ability to whitelist a site that you trust and to pause blocking as some sites have scripts that are essential to their functionality.
 

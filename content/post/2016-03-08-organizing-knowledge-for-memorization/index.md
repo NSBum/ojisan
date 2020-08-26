@@ -2,6 +2,7 @@
 title: Organizing knowledge for memorization
 date: 2016-03-08 05:34:15
 layout: link
+authorbox: false
 link: https://www.supermemo.com/en/articles/20rules
 tags:
 - learning

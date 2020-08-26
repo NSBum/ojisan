@@ -2,6 +2,7 @@
 title: Using AppleScript with MailTags
 date: 2016-04-25 19:27:15
 aliases: ['/2016/04/25/Using-AppleScript-with-MailTags/']
+authorbox: false
 tags:
 - applescript
 - mailtags

@@ -2,6 +2,7 @@
 title: Trump meets computational linguistics
 date: 2016-01-28 04:40:39
 aliases: ['/2016/01/28/Trump-meets-computational-linguistics/']
+authorbox: false
 tags:
 - politics
 - technology
@@ -10,7 +11,7 @@ tags:
 categories:
 - politics
 ---
-{{< figure src="images/trump.jpg" title="Trump orating" >}}
+{{< figure src="/images/2016/01/28/trump.jpg" title="Trump orating" >}}
 
 _"I actually called her, and she never mentioned my name. You know, I - when I sold - oh, did I get a call from one of the Environmental Protection Agency, they couldn't find it because it comes out in big globs, right, and you say to yourself, 'How does that help us?'"_
 
@@ -28,4 +29,4 @@ Some of the sentences are grammatically correct; many are not. But they have sim
 
 > _"“Mr. Trump, where are those hats made?” I said. I had no choice, because I don’t want me to refute his statement. How dare you say that. They don't know what they’re saying — that nobody believes. So you have a presidential election coming up. We have $2 trillion and we are going to move the plant back to the ceiling, $500 billion is?"_
 
-I used a [Python implementation](http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/) of the Markov text generator described above. You can read the [full text of a run](pdf/trump_output.pdf). The source text comes from three different speeches given by Mr. Trump.
+I used a [Python implementation](http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/) of the Markov text generator described above. You can read the [full text of a run](/attachments/2016/01/28/trump_output.pdf). The source text comes from three different speeches given by Mr. Trump.

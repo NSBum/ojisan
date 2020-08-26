@@ -2,6 +2,7 @@
 title: Resizing of images for Anki with Hazel and ImageMagick
 date: 2016-04-02 02:08:08
 aliases: ['/2016/04/02/Resizing-of-images-for-Anki-with-Hazel-and-ImageMagick/']
+authorbox: false
 tags:
 - anki
 categories:
@@ -25,17 +26,17 @@ Here I'll describe a process of automatically processing images for use on Anki 
 
 ### The process
 
-{{< figure src="images/directories.jpg" title="Image handling directories" >}}
+{{< figure src="/images/2016/04/02/directories.jpg" title="Image handling directories" >}}
 
 I created two directories on the Desktop: `ankibound` and `ankidone`. Incoming images go into `ankibound`. The rule we create in Hazel will watch `ankibound`, convert the image to a smaller size, adjust the quality slightly, strip the unused metadata and move the processed file to `ankidone`.
 
 ### Hazel rule to process incoming images
 
-{{< figure src="images/hazel1.jpg" title="Hazel rule list" >}}
+{{< figure src="/images/2016/04/02/hazel1.jpg" title="Hazel rule list" >}}
 
 If you are not familiar with creating Hazel rules, you first add the folder to be watched (`ankibound`) and add a new rules which we've cleverly named "Resize images for Anki." Then we just need to add the criteria and the steps for the rule.
 
-{{< figure src="images/hazel2.jpg" title="Hazel criteria and actions" >}}
+{{< figure src="/images/2016/04/02/hazel2.jpg" title="Hazel criteria and actions" >}}
 
 We've specified the type of file to be processed inside of `ankibound` and added two actions:
 

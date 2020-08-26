@@ -2,6 +2,7 @@
 title: Dynamic UI lists in Indigo 6
 date: 2016-05-15 06:24:28
 aliases: ['/2016/05/15/Dynamic-UI-lists-in-Indigo-6/']
+authorbox: false
 tags:
 - indigo
 - home automation

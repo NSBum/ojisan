@@ -2,6 +2,7 @@
 title: An easier way to automate synchronization of Anki profiles with AppleScript
 date: 2016-04-05 21:38:04
 aliases: ['/2016/04/05/An-easier-way-to-automate-synchronization-of-Anki-profiles-with-AppleScript/']
+authorbox: false
 tags:
 - anki
 - programming

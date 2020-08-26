@@ -2,6 +2,7 @@
 title: Detecting Russian letters with regex
 date: 2016-03-01 04:51:52
 aliases: ['/2016/03/01/Detecting-Russian-letters-with-regex/']
+authorbox: false
 tags:
 - russian
 - regex

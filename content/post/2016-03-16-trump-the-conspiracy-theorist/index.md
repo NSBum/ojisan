@@ -2,6 +2,7 @@
 title: 'Trump, the conspiracy theorist'
 date: 2016-03-16 06:31:10
 aliases: ['/2016/03/16/Trump-the-conspiracy-theorist/']
+authorbox: false
 tags:
 - politics
 - psychology

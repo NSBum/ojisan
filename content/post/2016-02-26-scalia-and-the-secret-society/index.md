@@ -2,6 +2,7 @@
 title: Scalia and the secret society
 date: 2016-02-26 06:27:52
 aliases: ['/2016/02/26/Scalia-and-the-secret-society/']
+authorbox: false
 tags:
 - politics
 - scotus
@@ -14,6 +15,6 @@ Surely I'm not the only one that finds this a bit weird. A secret society of hun
 
 No. My guess is that the hunting story is a cover. I'm no conspiracy theorist but I'll bet the real story is closer to the secret society in Kubrik's _"Eyes Wide Shut"_.
 
-{{< figure src="images/society.jpg" title="Scalia and the secret society" >}}
+{{< figure src="/images/2016/02/26/society.jpg" title="Scalia and the secret society" >}}
 
 The password is _"Fidelio"_.

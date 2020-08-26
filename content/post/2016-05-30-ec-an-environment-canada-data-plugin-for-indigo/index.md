@@ -2,6 +2,7 @@
 title: 'EC: An Environment Canada data plugin for Indigo'
 date: 2016-05-30 05:37:06
 aliases: ['/2016/05/30/EC-An-Environment-Canada-data-plugin-for-Indigo/']
+authorbox: false
 tags:
 - home automation
 - programming

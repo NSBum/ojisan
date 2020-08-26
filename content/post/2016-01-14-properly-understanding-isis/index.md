@@ -2,6 +2,7 @@
 title: Properly understanding ISIS
 date: 2016-01-14 05:53:17
 aliases: ['/2016/01/14/Properly-understanding-ISIS/']
+authorbox: false
 tags:
 - politics
 - religion
@@ -9,7 +10,7 @@ tags:
 categories:
 - politics
 ---
-{{< figure src="images/islamicweapons.jpg" title="" >}}
+{{< figure src="/images/2016/01/14/islamicweapons.jpg" title="Islamic weapons" >}}
 
 An [interesting piece](http://www.theatlantic.com/magazine/archive/2015/03/what-isis-really-wants/384980/) from _The Atlantic_ on understanding ISIS on their own clearly-stated terms.
 

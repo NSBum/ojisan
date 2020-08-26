@@ -3,6 +3,7 @@ title: Fixing object caching headers in S3 buckets
 date: 2016-03-17 04:55:33
 aliases: ['/2016/03/22/Fine-tuning-caching-for-S3-hosted-static-blogs-using-AWS-CLI/']
 draft: true
+authorbox: false
 tags:
 - programming
 - blog

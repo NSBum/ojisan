@@ -2,6 +2,7 @@
 title: Kimchi and hypertension
 date: 2016-02-25 06:24:22
 aliases: ['/2016/02/25/Kimchi-and-hypertension/']
+authorbox: false
 tags:
 - kimchi
 - medicine

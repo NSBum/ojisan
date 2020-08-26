@@ -2,6 +2,7 @@
 title: "Observation: Facebook groups don't work"
 date: 2016-03-06 06:03:10
 aliases: ['/2016/03/06/Observation-Facebook-groups-don-t-work/']
+authorbox: false
 tags:
 - facebook
 - technology

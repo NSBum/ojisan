@@ -2,6 +2,7 @@
 title: Writing Hexo filters
 date: 2016-03-26 06:23:14
 aliases: ['/2016/03/26/Writing-Hexo-filters/']
+authorbox: false
 tags:
 - hexo
 - javascript
@@ -13,7 +14,7 @@ categories:
 
 While working on a Russian language blog that's coming online soon, I had the opportunity to write a filter to render Cyrillic text in a different font than the rest of the body text.
 
-{{< figure src="images/blogpost.jpg" title="Markup filter use case" >}}
+{{< figure src="/images/2016/03/26/blogpost.jpg" title="Markup filter use case" >}}
 
 I wanted to set the Cyrillic text apart both in color, typeface, and font weight. Although I could have extended Hexo using a new tag, I decided to use a filter so that after rendering HTML anywhere on the blog, items demarcated by double pipes `||` would be replaced by a new `<span>`.
 
@@ -29,4 +30,4 @@ hexo.extend.filter.register('after_render:html', function(str,data) {
 });
 {{< /highlight >}}
 
-The regex in the second line just identifies a block of text fenced by double pipes and replaces it with a span with the class that specifies the styling to be applied. In the future, I'd like to identify Cyrillic text with a regex and not have to use a fence at all.                               
+The regex in the second line just identifies a block of text fenced by double pipes and replaces it with a span with the class that specifies the styling to be applied. In the future, I'd like to identify Cyrillic text with a regex and not have to use a fence at all.

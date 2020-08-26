@@ -2,6 +2,7 @@
 title: Scheduling synchronization of Anki databases on OS X
 date: 2016-04-04 05:55:37
 aliases: ['/2016/04/04/Scheduling-synchronization-of-Anki-databases-on-OS-X/']
+authorbox: false
 tags:
 - anki
 - programming
@@ -30,7 +31,7 @@ The solution relies on Automator. Normally, I don't care much for Automator. It 
 * Anki will synchronize. When it is done, select "Quit" from the menu bar. Anki will sync again. Since we didn't change any content this is an unnecessary step, but Anki does it automatically.
 * After Anki has finished synchronizing, click the "Stop" button on the recording window.
 
-{{< figure src="images/watchmedo.jpg" title="Watch Me Do Actions" >}}
+{{< figure src="/images/2016/04/04/watchmedo.jpg" title="Watch Me Do Actions" >}}
 
 ### Saving the workflow
 
@@ -45,7 +46,7 @@ You should now have an unsaved sequence of actions in the Watch Me Do group as a
 
 The privacy and security features on OS X may not allow you to run the Automator workflow from the command line without adding it to the list of trusted application.
 
-{{< figure src="images/securityprivacy.jpg" title="Add ankisync" >}}
+{{< figure src="/images/2016/04/04/securityprivacy.jpg" title="Add ankisync" >}}
 
 1. Open the Security and Privacy section of the System Preferences
 2. Click on the Privacy tab
@@ -67,7 +68,7 @@ If this doesn't properly launch your workflow, check that the everything is auth
 
 ### Schedule the workflow to run using LaunchControl
 
-{{< figure src="images/launchcontrol.jpg" title="Add ankisync to LaunchControl" >}}
+{{< figure src="/images/2016/04/04/launchcontrol.jpg" title="Add ankisync to LaunchControl" >}}
 
 * Add a new User Agent in LaunchControl by selecting _User Agents_ from the job types list and clicking the _+_ button at the bottom of the source list.
 * Use the [reverse DNS]() standard for naming your job.

@@ -2,6 +2,7 @@
 title: 'Privacy vs. security: Just this once.'
 date: 2016-02-21 04:41:04
 aliases: ['/2016/02/21/Privacy-vs-security-Just-this-once/']
+authorbox: false
 tags:
 - security
 - privacy

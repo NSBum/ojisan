@@ -2,6 +2,7 @@
 title: 'Introducing AnkiStats & AnkiStatsServer'
 date: 2016-04-09 15:11:37
 aliases: ['/2016/04/09/Introducing-AnkiStats-AnkiStatsServer/']
+authorbox: false
 tags:
 - python
 - anki

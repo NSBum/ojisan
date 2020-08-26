@@ -2,6 +2,7 @@
 title: Well that has a familiar ring to it
 date: 2016-06-13 05:41:41
 aliases: ['/2016/06/13/Well-that-has-a-familiar-ring-to-it/']
+authorbox: false
 tags:
 - culture
 - psychology
@@ -10,7 +11,8 @@ tags:
 categories:
 - politics
 ---
-{{< figure src="images/gun.jpg" >}}
+
+{{< figure src="/images/2016/06/13/gun.jpg" >}}
 
 The U.S. has become well-rehearsed in its response to mass shootings. An event. The pondering over terrorism vs. generalized craziness. The outpouring of prayers and support. Then the internet outrage.  And more internet outrage. More meme pictures about guns and love. More color-your-profile picture trends. Empty scripted responses from pious politicians. A week or two, then back to our regularly scheduled programming.
 

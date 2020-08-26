@@ -2,6 +2,7 @@
 title: JavaScript in Anki cards
 date: 2016-03-12 05:25:05
 aliases: [/2016/03/12/JavaScript-in-Anki-cards/]
+authorbox: false
 tags:
 - memorization
 - programming
@@ -20,7 +21,7 @@ If you are using Anki and are picky about the appearance of the cards, you shoul
 
 In my Russian deck, I sometimes have example sentences in Russian with an English translation. The fields are `sentence_ru` and `sentence_en`. Here's the catch, when a sentence is available, I want the card to display it. When there's not a sentence, I don't want any formatting artifacts on the card. Here's an example of a card with no example sentence:
 
-{{< figure src="images/cardexample.png" title="Example card" >}}
+{{< figure src="/images/2016/03/12/cardexample.png" title="Example card" >}}
 
 The hyphen separating what should be the Russian and English sentences still appears on the card. Let's fix that. To do that will use JavaScript to detect if a sentence is present and modify the card's HTML if it's not. All of our work will be in the card template definition.
 
@@ -58,10 +59,10 @@ This works by looking at the content of the Russian sentence tag. If the length 
 
 Here's what the card without example sentences looks like with our script applied:
 
-{{< figure src="images/cardexample1.png" title="Fixed card" >}}
+{{< figure src="/images/2016/03/12/cardexample1.png" title="Fixed card" >}}
 
 By adding a sentence pair, we can see that the styling is applied and that the script finds our content and ignores it:
 
-{{< figure src="images/cardexample2.png" title="Fixed card with sentences" >}}
+{{< figure src="/images/2016/03/12/cardexample2.png" title="Fixed card with sentences" >}}
 
 This is a simple example of how JavaScript can be used in an Anki card template. It looks like it could be a very useful way of dynamically styling cards.

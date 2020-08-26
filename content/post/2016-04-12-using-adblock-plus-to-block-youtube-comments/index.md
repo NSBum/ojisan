@@ -2,6 +2,7 @@
 title: Using AdBlock Plus to block YouTube comments
 date: 2016-04-12 05:17:46
 aliases: ['/2016/04/12/Using-AdBlock-Plus-to-block-YouTube-comments/']
+authorbox: false
 tags:
 - web
 - privacy
@@ -23,12 +24,12 @@ In this step you will create a filter that treats the entire comments section of
 - Navigate to YouTube and load any video page.
 - Click on the AdBlock icon in the toolbar to bring up its contextual menu
 
-{{< figure src="images/adblockmenu.png" title="AdBlock Plus contextual menu" >}}
+{{< figure src="/images/2016/04/12/adblockmenu.png" title="AdBlock Plus contextual menu" >}}
 
 - Choose "Block an ad on this page"
 - Navigate to an area of the page just above the "COMMENTS" header where the ads are located. Once the entire ads area of the page is highlighted, click there.
 
-{{< figure src="images/commentsdiv.jpg" title="Block YouTube comments" >}}
+{{< figure src="/images/2016/04/12/commentsdiv.jpg" title="Block YouTube comments" >}}
 
 - AdBlock will ask you to confirm the block. If it looks right to you, agree.^[The `div` to be blocked is `<DIV id="watch-discussion" class="branded-page-box yt-card scrolldetect" >`. Don't be surprised if that changes and you need to update your filter as YouTube changes their page structure.]
 

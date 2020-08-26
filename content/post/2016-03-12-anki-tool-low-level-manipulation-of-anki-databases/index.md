@@ -1,6 +1,7 @@
 ---
 title: 'anki_tool: low level manipulation of Anki databases'
 date: 2016-03-12 15:16:00
+authorbox: false
 tags:
 - anki
 - programming

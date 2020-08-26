@@ -2,6 +2,7 @@
 title: "Why is the U.S. obsessed with home ownership?"
 date: 2015-08-30 08:21:25 -0500
 comments: true
+authorbox: false
 categories:
 - miscellaneous
 tags:
@@ -10,7 +11,7 @@ tags:
 ---
 If you've lived in the U.S. for any length of time, you realize that we have a national obsession with home ownership. Yet I'm beginning to wonder about this bit of American orthodoxy. I've owned 4 homes and none of them seemed like much of an investment to me. The last home that we sold was an enormous loss. We are now in a transition, anticipating our new move; so we are house-free (and debt-free!) So it's an ideal time to unpack the complexities of home ownership.
 
-{{< figure src="images/homeownership.png" title="Selected rates of home ownership worldwide" >}}
+{{< figure src="/images/2015/08/30/homeownership.png" title="Selected rates of home ownership worldwide" >}}
 
 Rates of home ownership worldwide are not uniform; and these rates are not associated with most measures of individual and collective financial success. For example, the highest rate of home ownership is found in Romania, a country not known for its economic productivity. And the lowest rate of home ownership is among the Swiss, a people known for the financial-savvy.[^1] In fact, the Swiss save almost 17% of their disposable income compared to about 5% in the United States. If we construct a relationship between per capita GDP and the rate of home ownership for the countries listed in the chart above, the linear correlation coefficient is 0.3112. In other words, there isn't a relationship between home ownership and economic productivity.
 
@@ -19,7 +20,7 @@ In the U.S., the Federal bias is toward home ownership is both longstanding and 
 - __The mortgage interest deduction disproportionately benefits wealth Americans__. Analyses have shown that the relationship between household income and the tax savings from the mortgage interest deduction is non-linear.
 - __The mortgage interest deduction encourages people to buy larger houses__ In an effort to take a larger deduction, people take out larger mortgages to pay for larger houses. There are important environmental and other reasons to discourage this trend.
 
-Aside from the theoretical side, there are real economic findings that suggest home ownership may be an inefficient investment. From 1890 to 2005, when adjusted for inflation, home prices rose 103%, much lower than the rate of rise of the stock market. Since 1900, the U.S. stock market returned approximately 10% per year - about an order of magnitude more than home ownership. Yale economics professor Robert Shiller estimates that the ROI for U.S. home ownership is betweem 0 - 1%. As others have noted, 1% maintenance costs would mean an ROI of under 1%, perhaps even negative. Many other factors can lower this value further - including real estate transaction costs, property taxes, and homeowners association dues.
+Aside from the theoretical side, there are real economic findings that suggest home ownership may be an inefficient investment. From 1890 to 2005, when adjusted for inflation, home prices rose 103%, much lower than the rate of rise of the stock market. Since 1900, the U.S. stock market returned approximately 10% per year - about an order of magnitude more than home ownership. Yale economics professor Robert Shiller estimates that the ROI for U.S. home ownership is between 0 - 1%. As others have noted, 1% maintenance costs would mean an ROI of under 1%, perhaps even negative. Many other factors can lower this value further - including real estate transaction costs, property taxes, and homeowners association dues.
 
 I've come to regard some of Americans' love affair with home ownership as an anachronism. In the generation before mine, no one lived in HOA's. People tended to work at the same job for their entire adult lives. And they tended to change houses much less often. All of these factors have changed in the ensuing generations. Yet the informal analyses that prospective buyers do are partly based on assumptions that derive from the "old days."
 

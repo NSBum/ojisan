@@ -2,6 +2,7 @@
 title: Automate hexo blogging tasks with Grunt
 date: 2016-02-25 17:43:06
 aliases: ['/2016/02/25/Automate-hexo-blogging-tasks-with-Grunt/','/hexogrunt']
+authorbox: false
 tags:
 - blogging
 - hexo
@@ -91,7 +92,7 @@ Use a separate file that is not checked into version control for your AWS creden
 
 {{< highlight json >}}
 {
-    "accessIdProduction" : "...,
+    "accessIdProduction" : "...",
     "accessKeyProduction" : "...",
     "bucketProduction" : "..."
 }

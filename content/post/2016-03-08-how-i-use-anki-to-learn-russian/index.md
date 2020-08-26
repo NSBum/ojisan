@@ -2,6 +2,7 @@
 title: How I use Anki to learn Russian
 date: 2016-03-08 06:35:53
 draft: true
+authorbox: false
 tags:
 - memorization
 - learning

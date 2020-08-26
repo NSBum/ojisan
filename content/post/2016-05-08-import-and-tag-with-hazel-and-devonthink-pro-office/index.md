@@ -2,6 +2,7 @@
 title: Import and tag with Hazel and DEVONthink Pro Office
 date: 2016-05-08 06:30:40
 aliases: ['/2016/05/08/Import-and-tag-with-Hazel-and-DEVONthink-Pro-Office/']
+authorbox: false
 tags:
 - organization
 - devonthink

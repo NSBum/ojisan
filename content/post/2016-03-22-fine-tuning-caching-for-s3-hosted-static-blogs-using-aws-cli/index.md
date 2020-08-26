@@ -2,6 +2,7 @@
 title: Fine-tuning caching for S3-hosted static blogs using AWS CLI
 date: 2016-03-22 11:02:33
 aliases: ['/2016/03/22/Fine-tuning-caching-for-S3-hosted-static-blogs-using-AWS-CLI/']
+authorbox: false
 tags:
 - blogging
 - programming

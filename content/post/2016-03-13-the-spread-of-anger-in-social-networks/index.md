@@ -2,6 +2,7 @@
 title: The spread of anger in social networks and its implications for political violence
 date: 2016-03-13 07:07:17
 aliases: ['/2016/03/13/The-spread-of-anger-in-social-networks/']
+authorbox: false
 tags:
 - emotion
 - technology
@@ -13,7 +14,8 @@ An ingenious [study](http://arxiv.org/abs/1309.2402) using the massive Weibo net
 
 > _But the highest correlation by far was among angry users. Rui and co say anger strongly influences the neighbourhood in which it appears, spreading on average by about 3 hops or degrees. “Anger has a surprisingly higher correlation than other emotions,” they say._
 
-{{< figure src="images/angernetwork.jpg" title="Network emotions" >}}
+
+{{< figure src="/images/2016/03/13/angernetwork.jpg" title="Network emotions" >}}
 
 In the figure above, anger is depicted in red, and shows a greater pervasiveness than joy, sadness, and disgust. The study quantitatively looked at the correlation of emotion across the network and found that of all the emotions studied, anger showed the greatest diffusion.
 

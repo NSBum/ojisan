@@ -1,6 +1,7 @@
 ---
 title: Mak-kimchi 막김치
 date: 2016-02-25 20:57:35
+authorbox: false
 tags:
 - kimchi
 - korean
@@ -13,7 +14,7 @@ Years ago, my wife and I stayed overnight in Seoul on the way home from New Zeal
 I'm not expert in kimchi-making though I've made it many times. Instead, I'd like to point out a few things that I've learned from using and adapting different recipes. My current version is somewhere between the following two:
 
 - [Maangchi's version](http://www.maangchi.com/recipe/easy-kimchi)
-- [Korean Bapsang](http://www.koreanbapsang.com/2013/10/mak-kimchi-simple-kimchi.html).   
+- [Korean Bapsang](http://www.koreanbapsang.com/2013/10/mak-kimchi-simple-kimchi.html).
 
 You should feel free to follow either of the two recipes. For now, I'll just highlight some of the issues involved.
 
@@ -41,7 +42,7 @@ The cabbages I've used come in so many sizes that it's hard to get a fix on the 
 
 ### Fermentation equipment
 
-{{< figure src="images/crock.jpg" title="Harsch crock" class="left" >}}
+{{< figure src="/images/2016/02/25/crock.jpg" title="Harsch crock" class="left" >}}
 
 The fermentation needs to occur in an air-tight container. I use Harsch water-seal ceramic crocks for the fermentation. I have both a large and a medium crock. I saw recently that Harsch no longer makes these crocks.However, there appear to be many other suppliers that produce a similar product. The medium gets most of the use because it easily holds the amount of ingredients from two cabbages. Both were purchased from Amazon. Be sure to buy the weighting stones. These are essential for keeping everything pushed down so there are no air pockets inside. The traditional vessel for fermenting kimchi are onggi (옹기). Unfortunately, I haven't been able to find traditional onggi either in the U.S. or Canada; but since I'm satisfied with the German-made crocks that I use, I have not looked very thoroughly. One final note about loading the fermentation crock. Be cautious about overloading it because you will struggle to get the pressing stones into the crock due to lack of space. If you first compact the kimchi with your hands you'll have a little more room. You'll nearly the height of the stones to wiggle them into the crock.
 
