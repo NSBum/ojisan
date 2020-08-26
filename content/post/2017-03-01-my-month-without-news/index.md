@@ -2,6 +2,7 @@
 title: My month without news
 date: 2017-03-01 06:20:31
 aliases: ['/2017/03/01/My-month-without-news/']
+authorbox: false
 tags:
 - politics
 - culture
@@ -11,7 +12,7 @@ categories:
 ---
 > _"The unexamined life is not worth living."_ - Socrates
 
-{{< figure src="images/ostrich.png" class="left" >}}
+{{< figure src="/images/2017/03/01/ostrich.png" class="left" >}}
 
 This year I decided to take a different approach to making New Year's resolutions. Although many people make resolutions, [less than 10%](http://www.statisticbrain.com/new-years-resolution-statistics/) regard themselves as successful at achieving them.
 

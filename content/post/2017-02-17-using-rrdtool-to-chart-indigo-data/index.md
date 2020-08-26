@@ -2,6 +2,7 @@
 title: Using rrdtool to chart Indigo data
 date: 2017-02-17 05:03:35
 aliases: ['/2017/02/17/Using-rrdtool-to-chart-Indigo-data/']
+authorbox: false
 tags:
 - programming
 - home automation
@@ -95,7 +96,7 @@ Here you have a few choices, you can schedule the update and graph generation as
 
 The result of all of this is a graph of the temperature and humidity in my basement which I can incorporate in control pages or display anywhere else of my choosing.
 
-{{< figure src="images/graph.png" >}}
+{{< figure src="/images/2017/02/17/graph.png" >}}
 
 Of course, to use the graph in your Indigo control pages, you'll need to change the path in the above code to "/Library/Application Support/Perceptive Automation/Indigo 7/IndigoWebServer/images".
 

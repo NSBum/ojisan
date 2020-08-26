@@ -2,6 +2,7 @@
 title: A modified method of hot composting
 date: 2016-09-03 05:48:51
 draft: true
+authorbox: false
 tags:
 - composting
 - conservation
@@ -49,4 +50,4 @@ Another bioavailability issue that I've uncovered is that the available nitrogen
 
 #### Winter composting
 
-I will admit that I have not successfully kept a hot composting pile going all winter. But this may be the first year! However, the unmodified Berkeley method won't do in our Canadian winters. Since the method calls for allowing the pile to cool down, it would rapidly freeze if not kept warm by the addition of new source materials and turning        
+I will admit that I have not successfully kept a hot composting pile going all winter. But this may be the first year! However, the unmodified Berkeley method won't do in our Canadian winters. Since the method calls for allowing the pile to cool down, it would rapidly freeze if not kept warm by the addition of new source materials and turning

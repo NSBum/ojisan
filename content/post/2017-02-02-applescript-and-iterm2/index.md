@@ -2,6 +2,7 @@
 title: AppleScript and iTerm2
 date: 2017-02-02 06:40:30
 aliases: ['/2017/02/02/AppleScript-and-iTerm2/']
+authorbox: false
 tags:
 - applescript
 - mac

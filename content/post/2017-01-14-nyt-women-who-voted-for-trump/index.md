@@ -2,6 +2,7 @@
 title: 'NYT: Women who voted for Trump'
 date: 2017-01-14 07:00:40
 aliases: ['/2017/01/14/NYT-Women-who-voted-for-Trump/']
+authorbox: false
 tags:
 - politics
 - trump

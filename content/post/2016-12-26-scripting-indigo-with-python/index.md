@@ -2,6 +2,7 @@
 title: Scripting Indigo with Python
 date: 2016-12-26 21:47:28
 aliases: ['/2016/12/26/Scripting-Indigo-with-Python/']
+authorbox: false
 tags:
 - programming
 - home automation

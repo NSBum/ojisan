@@ -2,12 +2,14 @@
 title: Law and order
 date: 2017-01-25 06:36:34
 aliases: ['/2017/01/25/Law-and-order/']
+authorbox: false
 tags:
 - trump
 categories:
 - politics
 ---
-{{< figure src="images/lawundorder.jpg" >}}
+
+{{< figure src="/images/2017/01/25/lawundorder.jpg" >}}
 
 <center>
 <div style="font-style: italic; font-size: 32px; font-family: georgia, palatino, 'times new roman';">

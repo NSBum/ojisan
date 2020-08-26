@@ -2,6 +2,7 @@
 title: Helping the helpers
 date: 2017-02-05 06:49:39
 aliases: ['/2017/02/05/Helping-the-helpers/']
+authorbox: false
 tags:
 - politics
 - culture

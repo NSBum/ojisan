@@ -2,6 +2,7 @@
 title: Extracting mp3 file from web page with Python and ApplesScript
 date: 2016-11-05 15:49:45
 aliases: ['/2016/11/05/Extracting-mp3-file-from-web-page-with-Python-and-ApplesScript/']
+authorbox: false
 tags:
 - programming
 - python

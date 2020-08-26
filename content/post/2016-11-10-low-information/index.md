@@ -2,13 +2,14 @@
 title: Going "low information"
 date: 2016-11-10 03:32:10
 aliases: ['/2016/11/10/Low-information/']
+authorbox: false
 tags:
 - politics
 - internet
 categories:
 - culture
 ---
-{{< figure src="images/namaste.jpg" >}}
+{{< figure src="/images/2016/11/10/namaste.jpg" >}}
 
 In the wake of Donald Trump's victory in the U.S. presidential election, Republicans are taking the opportunity to scold progressives about living in an echo chamber and failing to take a moment to sample thought patterns of the Right.
 

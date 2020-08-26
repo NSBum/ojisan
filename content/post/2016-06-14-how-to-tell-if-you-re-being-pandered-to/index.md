@@ -2,13 +2,14 @@
 title: "How to tell if you're being pandered to"
 date: 2016-06-14 06:58:04
 aliases: ['/2016/06/14/How-to-tell-if-you-re-being-pandered-to/']
+authorbox: false
 tags:
 - politics
 - psychology
 categories:
 - politics
 ---
-{{< figure src="images/chameleon.jpg" >}}
+{{< figure src="/images/2016/06/14/chameleon.jpg" >}}
 
 You might be the subject of political pandering if:
 

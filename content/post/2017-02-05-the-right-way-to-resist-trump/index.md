@@ -1,6 +1,7 @@
 ---
 title: The right way to resist Trump
 date: 2017-02-05 06:55:08
+authorbox: false
 tags:
 - politics
 - trump

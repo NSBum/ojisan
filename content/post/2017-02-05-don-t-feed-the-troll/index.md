@@ -2,6 +2,7 @@
 title: "Don't feed the troll"
 date: 2017-02-05 06:04:12
 aliases: ['/2017/02/05/Don-t-feed-the-troll/']
+authorbox: false
 tags:
 - politics
 - trump

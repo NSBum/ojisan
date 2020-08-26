@@ -2,6 +2,7 @@
 title: Using macOS NSSpeechSynthesizer to generate audio content for Anki cards
 date: 2017-03-11 14:12:28
 aliases: ['/2017/03/11/Using-macOS-NSSpeechSynthesizer-to-generate-audio-content-for-Anki-cards/']
+authorbox: false
 tags:
 - macOS
 - dev
