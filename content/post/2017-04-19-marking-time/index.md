@@ -2,12 +2,13 @@
 title: marking time
 date: 2017-04-19 10:53:37
 aliases: ['/2017/04/19/marking-time/']
+authorbox: false
 tags:
 - poetry
 categories:
 - politics
 ---
-
+{{< poem >}}
 marking time,
 eyes glazed, pupils constricted
 to the head of a pin
@@ -35,3 +36,4 @@ its own rehearsal,
 a dreamish state from which
 only an atomic flash
 can awaken a person.
+{{< /poem >}}

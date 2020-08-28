@@ -2,6 +2,7 @@
 title: Serious audio processing on the command line
 date: 2017-04-05 16:59:21
 aliases: ['/2017/04/05/Serious-audio-processing-on-the-command-line/']
+authorbox: false
 tags:
 - programming
 - anki
@@ -16,11 +17,11 @@ I've written previously about [extracting and processing mp3 files](/2016/11/05/
 
 As before, the workflow depends heavily on [Hazel](https://www.noodlesoft.com/kb/) to identify and process files coming out of Forvo. The download button on their website, sends the mp3 files to the Downloads directory. The first rule in the workflow just grabs downloaded mp3 files and moves them to `~/Documents/mp3` so that I can work on them directly there.
 
-{{< figure src="images/hazel01.png" >}}
+{{< figure src="/images/2017/04/05/hazel01.png" >}}
 
 Another Hazel rule renames the verbosely-titled files to just the single Russian word being pronounced. It's just neater that way.
 
-{{< figure src="images/hazel02.png" >}}
+{{< figure src="/images/2017/04/05/hazel02.png" >}}
 
 {{< highlight bash >}}
 rename 's/(pronunciation_ru_)(.*)/$2/' *.mp3

@@ -2,6 +2,7 @@
 title: They're just paid protesters
 date: 2017-05-07 05:46:15
 aliases: ['/2017/05/07/They-re-just-paid-protesters/']
+authorbox: false
 tags:
 - politics
 - culture

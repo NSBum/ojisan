@@ -2,6 +2,7 @@
 title: 13 Random thoughts about Canada after living here for a year.
 date: 2017-04-17 05:49:40
 aliases: ['/2017/04/17/Random-about-Canada-after-living-here-for-a-year/']
+authorbox: false
 tags:
 - personal
 - politics
@@ -9,7 +10,7 @@ tags:
 categories:
 - miscellaneous
 ---
-{{< figure src="images/canadianflag.jpg" >}}
+{{< figure src="/images/2017/04/17/canadianflag.jpg" >}}
 
 On January 1, 2016 we packed up all our earthly goods and headed south to Canada. (Yes, it's true. When you live in Minnesota, it's possible to move _south_ to Canada. Look at the map!) Having lived here for a little over a year, here are some thoughts about living here, in no particular order:
 
