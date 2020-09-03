@@ -43,7 +43,7 @@
 	{{ if $loadJQuery }}
 		<script src="/shortcode-gallery/jquery-3.5.0.min.js"></script>
 	{{ end }}
-	
+
 	{{ if not (eq $previewType "none") }}
 		<script src="/shortcode-gallery/lazy/jquery.lazy.min.js"></script>
 	{{ end }}
@@ -110,7 +110,7 @@ Ordinal: {{ .Ordinal}}
 
 
 			<div>
-				<a href="{{ $original.RelPermalink }}" 
+				<a href="{{ $original.RelPermalink }}"
 					class="galleryImg"
 					{{ with $metadata }}
 						{{ if .ImageDescription }}
@@ -127,7 +127,7 @@ Ordinal: {{ .Ordinal}}
 						{{ end }}
 					{{ end }}
 					>
-					<img			
+					<img
 						width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}"
 
 						{{ if (eq $previewType "blur") }}
@@ -172,13 +172,14 @@ Ordinal: {{ .Ordinal}}
 
 	$( document ).ready(function() {
 		const gallery = $("#{{ $galleryId }}");
-		
+		{{ $lastRowJustification := .Get "lastRow" | default (.Site.Params.galleryLastRow | default "justify") }}
+
 		gallery.justifiedGallery({
 			rowHeight : {{ $rowHeight }},
 			margins : {{ $margins }},
 			border : 0,
 			waitThumbnailsLoad : false,
-			lastRow : 'justify',
+			lastRow : {{ $lastRowJustification }},
 			captions : false,
 		});
 
@@ -214,10 +215,10 @@ Ordinal: {{ .Ordinal}}
 						//let title = $(entry).find("a").attr("title");
 						let meta = $(entry).find("a").attr("data-meta");
 						meta = meta ? JSON.parse(meta) : {};
-						
+
 						let tags = meta.Tags;
 						tags = tags ? tags : [];
-						
+
 						//console.log("title: ", title);
 						//console.log("tags: ", tags);
 
@@ -236,13 +237,13 @@ Ordinal: {{ .Ordinal}}
 			};
 
 			const filterOptions = {{ $filterOptions | safeJS }};
-			
+
 			// insert a div for inserting filter buttons before the gallery
 			const filterbar = $("<div class='justified-gallery-filterbar'/>");
 			gallery.before(filterbar);
-	
+
 			let first = true;
-			// create a button for each filter entry 
+			// create a button for each filter entry
 			filterOptions.forEach(tagFilter => {
 				const filterButton = $("<button/>");
 				filterButton.text(tagFilter.label);
@@ -263,4 +264,3 @@ Ordinal: {{ .Ordinal}}
 		{{ end }}
 	});
 </script>
-
