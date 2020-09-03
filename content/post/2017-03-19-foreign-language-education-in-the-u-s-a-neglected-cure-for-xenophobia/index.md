@@ -22,7 +22,7 @@ The effectiveness of a process can be judged by its outcomes. The desired outcom
 
 In contrast to the U.S. public education, the competent acquisition of a foreign language is required. Most European countries require the study of two foreign languages from an early age.^[_Learning a foreign language a 'must' in Europe, not so in America_, Devlin, K.,Pew Research Center, July 13, 2015,  [Link](http://www.pewresearch.org/fact-tank/2015/07/13/learning-a-foreign-language-a-must-in-europe-not-so-in-america/)]
 
-{{< figure src="images/PewEuropeLanguages01.png" >}}
+{{< figure src="/images/2017/03/19/PewEuropeLanguages01.png" >}}
 
 In this study from the Pew Research Center, nearly three-quarters of European countries _require_ the study of not just one foreign language, but two languages. Instead, the U.S. is a crazy-quilt of state and local foreign language requirements. Some states are even allowing students to substitute computer languages for foreign languages to meet this requirement. I'm sure this will help them enormously during their vacations in Computerland!
 
