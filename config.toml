@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "セイウチおじさん Ojisan Seiuchi"
+title = "Ojisan Seiuchi セイウチおじさん"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = ["mainroad", "hugo-shortcode-gallery"]
