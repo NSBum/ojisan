@@ -31,6 +31,10 @@ I don't have many strongly-held beliefs; but one is that we are all better off w
 - Differential equations
 - Linear algebra
 
+### Computer science
+
+- Machine learning/AI - TensorFlow
+
 ### Languages and linguistics
 
 - Japanese
