@@ -1,0 +1,10 @@
+blockquote {
+	display: block;
+	padding: 5px 0 5px 35px;
+	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
+	line-height: 1.6;
+    font-size: 17px;
+    color: #555555;
+	border-left: 5px solid #f7f7f7;
+}
