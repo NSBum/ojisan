@@ -1,5 +1,5 @@
 ---
-title: Using AdBlock Plus to block YouTube comments
+title: "Using AdBlock Plus to block YouTube comments"
 date: 2016-04-12 05:17:46
 aliases: ['/2016/04/12/Using-AdBlock-Plus-to-block-YouTube-comments/']
 authorbox: false

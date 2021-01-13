@@ -9,7 +9,6 @@ tags:
 categories:
 - politics
 ---
-{{< tweet 827483841589891073 >}}
 
 In an effort to strip protesters of their legitimacy, Trump and Fox News claim that protesters are simply there because they're paid by powerful oppositional interests. Never mind that Trump has no evidence for his claim; he has no evidence for practically anything that emerges from his loud mouth. What is more interesting to me is that if money delegitimizes authenticity then presumably we can use this effect to come to additional conclusions.
 

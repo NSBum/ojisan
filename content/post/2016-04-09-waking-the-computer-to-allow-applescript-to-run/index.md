@@ -1,5 +1,5 @@
 ---
-title: Waking the computer to allow AppleScript to run.
+title: "Waking the computer to allow AppleScript to run"
 date: 2016-04-09 14:52:56
 aliases: ['/2016/04/09/Waking-the-computer-to-allow-AppleScript-to-run/']
 authorbox: false

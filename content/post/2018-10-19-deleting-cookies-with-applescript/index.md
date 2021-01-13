@@ -1,7 +1,9 @@
 ---
 title: "Deleting cookies with AppleScript"
 date: 2018-10-19T10:39:54-04:00
-aliases: ['/2018/10/19/Deleting-cookies-with-AppleScript/']
+draft: true
+authorbox: false
+sidebar: false
 tags:
 - programming
 - privacy
@@ -9,6 +11,7 @@ tags:
 categories:
 - programming
 ---
+
 A couple years ago I [wrote about a method](/2016/01/25/Stop-Facebook-tracking/) for deleting cookies from Safari on macOS by employing AppleScript. Now I have a new script that works on OS X 10.14 Mojave. There are ways of surgically removing cookies, but honestly most sites leave so many cookies on my machine that I have no idea what any of them do and to what extent they use them to track me.
 
 ### Safari

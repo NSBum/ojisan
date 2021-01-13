@@ -1,7 +1,7 @@
 ---
-title: Import and tag with Hazel and DEVONthink Pro Office
+title: "Import and tag with Hazel and DEVONthink Pro Office"
 date: 2016-05-08 06:30:40
-aliases: ['/2016/05/08/Import-and-tag-with-Hazel-and-DEVONthink-Pro-Office/']
+#aliases: ['/2016/05/08/Import-and-tag-with-Hazel-and-DEVONthink-Pro-Office/']
 authorbox: false
 tags:
 - organization
@@ -27,7 +27,8 @@ Read on to see how the Hazel rule is written, including the AppleScript to make 
 
 ### Hazel rule
 
-{{< figure src="images/hazel_import_rule.jpg" title="" >}}
+<!-- {{< figure src="images/hazel_import_rule.jpg" title="" >}} -->
+![](/images/2016/05/08/hazel_import_rule.jpg)
 
 The Hazel rule is simple:
 

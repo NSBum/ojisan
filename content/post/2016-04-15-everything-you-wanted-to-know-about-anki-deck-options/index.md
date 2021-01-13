@@ -1,5 +1,5 @@
 ---
-title: Everything you wanted to know about Anki deck options
+title: "Everything you wanted to know about Anki deck options"
 date: 2016-04-15 17:37:49
 draft: true
 tags:

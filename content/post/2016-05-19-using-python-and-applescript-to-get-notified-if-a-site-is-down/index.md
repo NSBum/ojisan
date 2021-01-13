@@ -1,5 +1,5 @@
 ---
-title: Using Python and AppleScript to get notified if a site is down
+title: "Using Python and AppleScript to get notified if a site is down"
 date: 2016-05-19 06:52:34
 aliases: ['/2016/05/19/Using-Python-and-AppleScript-to-get-notified-if-a-site-is-down/']
 authorbox: false

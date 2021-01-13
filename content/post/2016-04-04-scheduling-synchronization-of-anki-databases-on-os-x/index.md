@@ -1,5 +1,5 @@
 ---
-title: Scheduling synchronization of Anki databases on OS X
+title: "Scheduling synchronization of Anki databases on OS X"
 date: 2016-04-04 05:55:37
 aliases: ['/2016/04/04/Scheduling-synchronization-of-Anki-databases-on-OS-X/']
 authorbox: false
