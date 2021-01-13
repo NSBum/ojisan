@@ -8,7 +8,15 @@ weight: -7
 layout: "readings"
 type: "readings"
 ---
-A compilation of books and short works of fiction that I've read by year along with a few comments about each. I have some stretch goals for reading this year.
+A compilation of books and short works of fiction that I've read by year along with a few comments about each. 
+
+## 2021
+
+I have some stretch goals for reading this year.
+
+- **The Tyranny of Merit (Michael Sandel)** - I've heard Professor Sandel's arguments connecting meritocratic striving, the failed implementation of the project of globalization and the politics of populist resentment. It was going seeing this long form.
+- **The Glass Hotel (Emily St. John Mandel)** - This was a interesting read. I'm still processing it.
+
 
 ## 2020
 
@@ -21,3 +29,6 @@ A compilation of books and short works of fiction that I've read by year along w
 - **The Noise of Time** (Julian Barnes) - Interesting historical novel about Shostakovich. Now I want to read more about the composer and investigate Julian Barnes more. He seems to turn an artful sentence.
 - **The Rise and Fall of DODO** (Neal Stephenson and Nicole Galland) - I had enjoyed Seveneves after finding it on one of Obama's readings lists. This book was enjoyable science fiction, interesting but a a little far-fetched. (Or can you actually say that about science fiction?)
 - **The Language Instinct** (Steven Pinker)
+- **The Joy of X** (Steven Strogatz) - A delightful and entertaining tour of mathematics from the fundamentals to the abstract. 
+- **The Age of Surveillance Capitalism** (Shoshana Zuboff) - A well-supported account of the ways in which big capital, government, and a handful of tech leaders have conspired to "farm" our experience online as behavioural surplus and algorithmicallyexploit the data derived from it as a behavioural modification regimen. Strongly recommended.
+- **10 Arguments for Deleting Your Social Media Accounts Right Now** (Jaron Lanier) - I saw the author interviewed on "The Social Dilemma", the Netflix documentary about the destructive effects of social media. Since then, I heard him make his case on a podcast and decided to read his arguments. It's all quite convincing and consistent in many ways Zuboff's opus. Whereas her arguments are for sweeping governmental regulation, based on new areas of law that deal with the wholesale "farming" of human experience at scale, Lanier's arguments are for individuals to simply deny surveillance capitalism its raw materials.
