@@ -1,5 +1,5 @@
-baseurl = "/"
-title = "Ojisan Seiuchi セイウチおじさん"
+baseurl = "https://www.ojisanseiuchi.com"
+title = "Ojisan Seiuchi"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = ["mainroad", "hugo-shortcode-gallery"]
@@ -7,6 +7,20 @@ disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 disablePathToLower = false
 pygmentsUseClasses = true
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
 
 [Author]
   name = "Alan Duncan"
@@ -23,7 +37,7 @@ pygmentsUseClasses = true
   post_navigation = true
   postSections = ["post"]
   highlightColor = "#5d6464"
-  customCSS = ["css/hugo-easy-gallery.css","css/link-page.css","css/russian-shortcode.css","css/photogallery.css","css/general.css"]
+  #customCSS = ["css/link-page.css","css/russian-shortcode.css","css/photogallery.css","css/general.css"]
   post_meta = ["date", "categories", "translations"]
 
 [Params.sidebar]
@@ -57,7 +71,7 @@ URL = "s3://www.ojisanseiuchi.com?region=us-east-1"
 [[deployment.matchers]]
 # Cache static assets for 20 years.
 pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
-cacheControl = "max-age=630720000, no-transform, public"
+cacheControl = "max-age=600, no-transform, public"
 gzip = true
 
 [[deployment.matchers]]
