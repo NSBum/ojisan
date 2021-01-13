@@ -26,6 +26,10 @@
 	{{ $styleSyntax := resources.Get "css/syntax.css" | resources.ExecuteAsTemplate "css/syntax.css" . -}}
 	<link rel="stylesheet" href="{{ $styleSyntax.RelPermalink }}">
 
+	<link href="{{ .Site.BaseURL }}/css/{{ index .Site.Data.tonedeaf.css "general" }}" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}/css/{{ index .Site.Data.tonedeaf.css "russian-shortcode" }}" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}/css/{{ index .Site.Data.tonedeaf.css "photogallery" }}" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}/css/{{ index .Site.Data.tonedeaf.css "link-page" }}" rel="stylesheet">
 
 	{{ range .Site.Params.customCSS -}}
 	<link rel="stylesheet" href="{{ . | relURL }}">
