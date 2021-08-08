@@ -21,6 +21,8 @@ pygmentsUseClasses = true
     noClasses = false
     style = "monokai"
     tabWidth = 4
+  [markup.goldmark.renderer]
+      unsafe= true
 
 [Author]
   name = "Alan Duncan"
