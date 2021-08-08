@@ -82,3 +82,13 @@ h6 {
 	font-size: 16px;
 	font-size: 1rem;
 }
+
+.til a {
+	color: #cd3f3a;
+}
+
+.widget__link {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	text-transform: none;
+}
