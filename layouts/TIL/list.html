@@ -1,0 +1,39 @@
+{{ define "main" }}
+<main class="main list" role="main">
+	{{- with .Title }}
+	<header class="main__header">
+		<h1 class="main__title">{{ . }}</h1>
+	</header>
+	{{- end }}
+	{{- with .Content }}
+	<div class="content main__content clearfix">
+		{{ . }}
+	</div>
+	{{- end }}
+	{{- range .Paginator.Pages }}
+		<article class="til">
+		<header class="post__header">
+			<h2 class="post__title">{{ .Title }}</h2>
+			{{- with .Params.lead }}
+			<p class="post__lead">{{ . }}</p>
+			{{- end }}
+			{{ with partial "post_meta.html" . -}}
+			<div class="post__meta meta">{{ . }}</div>
+			{{- end }}
+		</header>
+		{{- if .Params.thumbnail }}
+		<figure class="post__thumbnail">
+			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
+		</figure>
+		{{- end }}
+		{{- partial "post_toc.html" . -}}
+		<div class="content post__content clearfix">
+			{{ .Content }}
+		</div>
+		{{- if .Params.tags }}
+		{{- end }}
+	</article>
+	{{- end }}
+</main>
+{{ partial "pagination.html" . }}
+{{ end }}
