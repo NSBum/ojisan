@@ -15,13 +15,19 @@ I don't have many strongly-held beliefs; but one is that we are all better off w
 
 - voiced, unvoiced consonants, sonants
 - Participles
-- Impersonal pronouns and all their variants, {{< russian >}}что-нибудь, что-то, и.т.д.{{< /russian >}}
-- Memorize list of verbs that govern the instrumental
+- Impersonal pronouns and all their variants, что-нибудь, что-то, и.т.д.
+- memorize list of verbs that govern the instrumental
 
 ### Economics
 
 - Meritocracy - history, outcomes, alternatives
 - UBI - evidence for and against
+
+### Computer science
+
+- Rust programming language
+- Haskell
+- Basics of machine learning/AI, TensorFlow
 
 ### Mathematics
 
@@ -31,11 +37,7 @@ I don't have many strongly-held beliefs; but one is that we are all better off w
 - Differential equations
 - Linear algebra
 
-### Computer science
-
-- Machine learning/AI - TensorFlow
-
-### Languages and linguistics
+### Languages
 
 - Japanese
 - Finnish

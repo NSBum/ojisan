@@ -53,7 +53,7 @@ The privacy and security features on OS X may not allow you to run the Automator
 3. Click on Accessibility in the source list
 4. Drag the newly created workflow application into the list and grant it permission to control the computer.
 
-This should be enough to allow the workflow to do its job.
+This should be enough to allow the workflow to do its job. 
 
 ### Test that you can launch the workflow from the command line
 

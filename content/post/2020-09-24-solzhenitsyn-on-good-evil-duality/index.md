@@ -7,7 +7,7 @@ sidebar: false
 tags:
 - quote
 categories:
-- politicis
+- politics
 ---
 ![](/images/2020/09/24/solzhenitsyn.jpg)
 
