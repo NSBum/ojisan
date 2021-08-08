@@ -7,7 +7,7 @@
         {{/* the most recent post is rendered in full */}}
         {{/* thereafter, summaries */}}
         {{- range $index, $value := $paginator.Pages.GroupByDate "2006" }}
-            <h2>{{ substr .Key -1 4 }}</h2>
+            <h2>{{ substr .Key 0 4 }}</h2>
             {{- range sort .Pages }}
                 {{- .Render "gallerysummary" }}
             {{- end }} {{/* page range */}}
