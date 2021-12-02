@@ -8,7 +8,7 @@ tags:
 - yourtags
 - here
 categories:
-- yourcategoryhere
+- update
 ---
 I've decided to post monthly updates to give myself a little accountability and to remind myself that progress is still possible during these long weird months of isolation - now over a year.
 
