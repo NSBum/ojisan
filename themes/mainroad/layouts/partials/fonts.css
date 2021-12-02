@@ -1,0 +1,10 @@
+
+@font-face {
+	font-family: "Roboto Slab";
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	src: 	url('{{ .Site.BaseURL }}fonts/RobotoSlab-Regular.ttf') format('truetype'),
+			url('{{ .Site.BaseURL }}fonts/RobotoSlab-Bold.ttf') format('truetype');
+
+}
