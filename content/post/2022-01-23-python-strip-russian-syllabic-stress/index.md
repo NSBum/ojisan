@@ -63,3 +63,27 @@ def strip_stress_marks(text: str) -> str:
 {{< /highlight >}}
 
 I thought this might be faster, but instead using the `regex` module is about an order of magnitude slower. Oh well.
+
+By compiling the regex, you can reclaim most of the difference, but the method using regular expressions is still about twice as slow as the approach of using the `bytes` object manipulation. For completeness, here is the version using compiled regular expressions:
+
+{{< highlight python >}}
+o_pat = regex.compile(r'\u00f3')
+a_pat = regex.compile(r'\u00e1')
+e_pat = regex.compile(r'\u00e9')
+y_pat = regex.compile(r'\u00fd')
+diacritical_pat = regex.compile(r'\u0301')
+
+def strip_stress_marks3(text: str) -> str:
+   # correct error where latin accented ó is used
+   result = o_pat.sub('\u043e', searchText)
+   # correct error where latin accented á is used
+   result = a_pat.sub('\u0430', result)
+   # correct error where latin accented é is used
+   result = e_pat.sub('\u0435', result)
+   # correct error where latin accented ý is used
+   result = y_pat.sub('\u0443', result)
+   # remove combining diacritical mark
+   result = diacritical_pat.sub("", result)
+   
+   return result
+{{< /highlight >}}
