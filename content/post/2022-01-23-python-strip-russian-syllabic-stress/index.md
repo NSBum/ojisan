@@ -61,3 +61,5 @@ def strip_stress_marks(text: str) -> str:
    
    return result
 {{< /highlight >}}
+
+I thought this might be faster, but instead using the `regex` module is about an order of magnitude slower. Oh well.
