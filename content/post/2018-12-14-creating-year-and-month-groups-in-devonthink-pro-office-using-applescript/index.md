@@ -12,7 +12,7 @@ categories:
 ---
 In [DEVONthink Pro Office](https://www.devontechnologies.com/apps/devonthink) I often organize certain content by year and month. To do that, I created a simple AppleScript to build year and month groups in the following format:
 
-{{< figure src="images/yearmonth.png" title="DEVONthink year+month" >}}
+{{< figure src="/images/2018/12/14/yearmonth.png" title="DEVONthink year+month" >}}
 
 To use the script, you select the parent group in which the year will reside.
 

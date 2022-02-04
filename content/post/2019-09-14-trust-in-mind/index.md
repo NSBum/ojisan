@@ -7,7 +7,7 @@ categories:
 tags:
 - poetry
 ---
-{{< figure src="images/Sengcan.jpg" title="Sengcan, the Third Ancestor" >}}
+{{< figure src="/images/2019/09/14/Sengcan.jpg" title="Sengcan, the Third Ancestor" >}}
 
 Listening to a series of excellent dharma talks from the San Francisco Zen Center, I first learned about the ancient poem "Trust in Mind"^[[Full text](https://terebess.hu/english/hsin.html) of the poem, _"Xinxinming"_.] by the Third Ancestor of the Zen tradition, Jianzhi Sengcan (鑑智僧璨)
 

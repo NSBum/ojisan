@@ -8,7 +8,7 @@ tags:
 categories:
 - politics
 ---
-{{< figure src="images/trumphannity.png" title="Trumphannity" >}}
+{{< figure src="/images/2018/11/06/trumphannity.png" title="Trumphannity" >}}
 
 Yes. Yes, they've done a fine job for _"you"_. But what about the rest of us? Moreover, what about the _"us"_ in perpetuity, those who will have to deal with the erosion of civic norms?
 

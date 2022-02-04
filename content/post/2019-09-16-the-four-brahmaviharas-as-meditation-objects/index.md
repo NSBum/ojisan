@@ -6,7 +6,7 @@ summary: "An interview about the Four Brahmaviharas as meditation objects."
 categories:
 - zen
 ---
-{{< figure src="images/sunset.jpg" class="left" >}}
+{{< figure src="/images/2019/09/16/sunset.jpg" class="left" >}}
 
 An [interesting interview](https://www.buddhistinquiry.org/article/cultivating-the-brahmaviharas/) on the practice of meditating on the Four Brahmaviharas or the four divine abodes (cattāri brahmavihārā in Pail, चत्वारि ब्रह्मविहाराः in Sanskrit.)
 

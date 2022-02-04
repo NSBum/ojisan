@@ -31,7 +31,7 @@ For background on why classical music is so poorly handled, read Robinson Meyer'
 
 Since classical music isn't really organized by "song" and an album is much less important than the works it contains, I break down the album structure and reorganize it by work. In addition to using the work/movement designation in the track info, I create playlists for individual works and playlists folders for broader categories of works by the same composer.
 
-{{< figure src="images/mozart.png" title="Organizing works as playlists and folders" >}}
+{{< figure src="/images/2018/08/15/mozart.png" title="Organizing works as playlists and folders" >}}
 
 The top-level folder is the composer followed by nested folders of category of works (e.g. sonatas, concerti, etc.) then instrument folders under that level. If I have multiple recordings of the same work, the work itself gets its own folder.
 

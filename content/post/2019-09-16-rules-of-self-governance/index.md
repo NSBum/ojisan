@@ -7,7 +7,7 @@ categories:
 tags:
 - habits
 ---
-{{< figure src="images/poppies.jpg" class="left" >}}
+{{< figure src="https://res.cloudinary.com/deleyamlh/image/upload/v1644007570/ojisan/2019/09/16/poppies.jpg" class="left" >}}
 
 I'm a big fan of David Cain's [raptitude.com](https://raptitude.com). A post from 2017 entitled [Wise people have rules for themselves](https://www.raptitude.com/2017/07/wise-people-have-rules-for-themselves/) is one that a come back to frequently.
 

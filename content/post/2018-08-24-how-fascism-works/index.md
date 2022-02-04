@@ -11,7 +11,7 @@ categories:
 - politics
 ---
 
-{{< figure src="images/howfascismworks.png" class="left" >}}
+{{< figure src="/images/2018/08/24/howfascismworks.png" class="left" >}}
 
 A recent piece in [The Atlantic](https://www.theatlantic.com/) by Peter Beinart filled in a cognitive gap in understanding how a large minority of U.S. citizens continue to support an abjectly incompetent, almost certainly criminal, willfully ignorant, and generally hateful man as president. The article _[Why Trump supporters believe he is not corrupt](https://www.theatlantic.com/politics/archive/2018/08/what-trumps-supporters-think-of-corruption/568147/)_ makes the argument that when Trump defenders concern themselves with the idea of _corruption_ they are not thinking of political corruption so much as corruption of the purity. This is consistent with Jonathan Haight's research into the determinants of a person's moral judgments as a function of political affiliation.^[This has been [noted before](https://www.nytimes.com/2016/01/06/opinion/campaign-stops/purity-disgust-and-donald-trump.html) by Thomas Edsall back in early 2016 writing for The New York Times.] Conservatives are likelier than liberals to concern themselves with tradition and purity. When Donald Trump uses the word _disgusting_ which he has done [scores](http://www.trumptwitterarchive.com/archive/disgusting) of times on Twitter, he's invoking the conservative fear of taint. The Special Prosecutor's inquiry into possible collusion and other crimes committed during the 2016 elections, in Trump's view, are not only unlawful, biased, or unfavourable in some other objective way. It is, to Trump, _disgusting_ (_"this Rigged and Disgusting Witch Hunt."_)
 

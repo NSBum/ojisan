@@ -17,4 +17,4 @@ I've always had a preference for serif fonts when writing in Russian. Since some
 
 In action, applying the desired CSS for the `russian` class, we have:
 
-{{< figure src="images/illustrate.png" title="Russian shortcode in action" >}}
+{{< figure src="/images/2019/09/15/illustrate.png" title="Russian shortcode in action" >}}

@@ -15,7 +15,7 @@ The Russian language has a vast and nuanced vocabulary. One approach to learning
 
 There is a CSV version of the Corpus, but the data is not useful for ordering in a meaningful way. Instead, I took the rank ordered tabular data from the page [Частотный список лемм](http://dict.ruslang.ru/freq.php?act=show&dic=freq_freq&title=%D7%E0%F1%F2%EE%F2%ED%FB%E9%20%F1%EF%E8%F1%EE%EA%20%EB%E5%EC%EC) (Frequency list of lemmas) and simply pasted it into a Numbers spreadsheet. Since Numbers is extremely slow even on a fast-performing machine, it beachballed for nearly a minute during the paste operation. After that, I exported it as CSV. To get the CSV file into a sqlite3 database, I created a new table with the following schema:
 
-{{< figure src="images/dbschema.png" title="sqlite database schema" >}}
+![](https://res.cloudinary.com/deleyamlh/image/upload/v1643977073/ojisan/2018/09/23/dbschema.png)
 
 After mapping the column names to those in the CSV, the import was simple.
 
