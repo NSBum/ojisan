@@ -1,5 +1,5 @@
 ---
-title: "Automating handling bank and financial statements"
+title: "Automating the handling of bank and financial statements"
 date: 2022-03-19T06:57:23-04:00
 draft: false
 authorbox: false
