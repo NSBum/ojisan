@@ -61,7 +61,7 @@ So our Hazel rule criteria will be:
 2. Name `contains` list
 3. Passes shell script → embedded script
 
-The script is just `pdftotext "$1" | grep -q "Beaver"`. (Of course, yours won't be "Beaver" but whatever you use to uniquely identify what kind of document you're dealing with.)
+The embedded script for the last criterion is just `pdftotext "$1" | grep -q "Beaver"`. (Of course, yours won't be "Beaver" but whatever you use to uniquely identify what kind of document you're dealing with.)
 
 #### Processing the document in Hazel
 
