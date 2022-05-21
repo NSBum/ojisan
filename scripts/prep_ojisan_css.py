@@ -28,7 +28,7 @@ from docopt import docopt
 from shutil import copyfile
 
 def fileHash(filePath):
-    process = subprocess.run(['/usr/local/bin/git', 'hash-object',filePath], check=True, stdout=subprocess.PIPE, universal_newlines=True)
+    process = subprocess.run(['git', 'hash-object',filePath], check=True, stdout=subprocess.PIPE, universal_newlines=True)
     output = process.stdout
     return output
     
