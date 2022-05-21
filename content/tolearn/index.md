@@ -1,6 +1,6 @@
 ---
 title: "To learn"
-date: 22019-11-27T05:50:25-04:00
+date: 2019-11-27T05:50:25-04:00
 authorbox: false
 sidebar: false
 menu: main
@@ -26,6 +26,7 @@ I don't have many strongly-held beliefs; but one is that we are all better off w
 ### Computer science
 
 - Rust programming language
+- More vanilla JavaScript
 - Haskell
 - Basics of machine learning/AI, TensorFlow
 
