@@ -4,6 +4,7 @@ date: 2022-05-15T06:37:22-04:00
 draft: false
 authorbox: false
 sidebar: false
+summary: "Starting a new devlog about Hedghog, a new language learning app and some thoughts about the interlinear display of lemmas."
 tags:
 - russian
 - css

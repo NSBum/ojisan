@@ -2,7 +2,7 @@
 title: "Getting plain text into Anki: a saga"
 date: 2019-12-13T03:59:55-05:00
 draft: false
-sidebar: false
+sidebar: true
 authorbox: false
 summary: "In Anki 2.1, it's practically impossible to get plain text from the web into note fields. A solution (on macOS, at least)..."
 categories:
@@ -46,18 +46,20 @@ property paste : 9
 
 delay 0.25
 tell application "Anki"
-	activate
-	delay 0.25
-	my pasteWithDelay(the clipboard)
+   activate
+   delay 0.25
+   my pasteWithDelay(the clipboard)
 end tell
 
 on pasteWithDelay(someText)
-	set the clipboard to {text:(someText as string), Unicode text:someText}
-	tell application "System Events"
-		key code paste using command down
-		delay 0.25
-	end tell
+   set the clipboard to {text:(someText as string), Unicode text:someText}
+   tell application "System Events"
+      key code paste using command down
+      delay 0.25
+   end tell
 end pasteWithDelay
 {{< /highlight >}}
 
 Now the remaining problem is how to launch the script easily. Here, I just added a [Quicksilver](https://qsapp.com/) trigger. So the key combination ⇧⌘W now takes the clipboard, turns it into plain text and uses UI automation to paste it into the field that currently has the focus. It works, but I'm left with the feeling that I'm missing a better way...
+
+_EDIT 2022-06-02_: I've since come up with a variation on this approach which I've written about in [Getting plaintext into Anki fields on macOS: An update](/2022/06/02/getting-plaintext-into-anki-fields-on-macos-an-update/).

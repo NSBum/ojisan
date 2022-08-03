@@ -4,6 +4,7 @@ date: 2022-05-03T07:41:32-04:00
 draft: false
 authorbox: false
 sidebar: false
+summary: "More outages at Pinboard. It was time to find an open-source self-hosted alternative. [Espial](https://github.com/jonschoning/espial), it turns out, works great."
 tags:
 - web
 - programming

@@ -20,7 +20,18 @@
 		{{- end }}
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		{{ .Summary }}
+		{{ if .Params.summary }}
+			{{/* if there's a summary in frontmatter, render it */}}
+			{{ .Params.summary | markdownify }}
+
+			{{/* always show read more... if we render the frontmatter summary */}}
+			<div class="list__footer clearfix">
+				<!-- <a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a> -->
+				<a class="list__footer-readmore-grey" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+			</div>
+		{{ else }}
+			{{ .Summary | markdownify }}
+		{{ end }}
 	</div>
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}

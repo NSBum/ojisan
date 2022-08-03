@@ -4,6 +4,7 @@ date: 2022-05-18T04:56:39-04:00
 draft: false
 authorbox: false
 sidebar: false
+summary: "Dealing with `PUNCT` nodes in interlinear glossing."
 tags:
 - russian
 - css

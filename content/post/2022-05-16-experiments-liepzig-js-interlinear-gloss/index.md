@@ -4,6 +4,7 @@ date: 2022-05-16T05:36:03-04:00
 draft: false
 authorbox: false
 sidebar: false
+summary: "leipzig.js is a library for applying [interlinear gloss](https://en.wikipedia.org/wiki/Interlinear_gloss) to texts for linguistic analysis. In this post, I experiment a little with this libary to evaluate whether it would work for a little project of mine."
 tags:
 - russian
 - css

@@ -4,6 +4,7 @@ date: 2022-05-19T18:44:12-04:00
 draft: false
 authorbox: false
 sidebar: false
+summary: "Making the Hugo → S3 upload process much more efficient by tracking file hashes."
 tags:
 - hugo
 - blog

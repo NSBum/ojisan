@@ -4,6 +4,7 @@ date: 2022-05-14T09:48:02-04:00
 draft: false
 authorbox: false
 sidebar: false
+summary: "Splitting text into sentences is one of those tasks that looks simple but on closer inspection is more difficult than you think. A common approach is to use regular expressions to divide up the text on punction marks. But without adding layers of complexity, that method fails on some sentences. This is a method using [spaCy](https://spacy.io)."
 tags:
 - russian
 - nlp
