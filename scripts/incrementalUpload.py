@@ -29,7 +29,7 @@ import shlex
 
 SRC_DIR = "/Users/alan/Documents/dev/ojisan/public"
 BUCKET_URL = "s3://www.ojisanseiuchi.com"
-DB_PATH = '/Users/alan/Documents/dev/ojisan/checksums.db'
+DB_PATH = '/Users/alan/Documents/blog/ojisan_incremental_upload.db'
 
 def aws_copy(source: str, dest: str):
    cmd = f'aws s3 cp {source} {dest}'
@@ -72,28 +72,26 @@ def bucket_exists(bpath: str) -> bool:
    
    
 if __name__ == '__main__':
+   connection = None
    arguments = docopt(__doc__, version='incrementalUpload.py 0.9')
    print(arguments)
-   connection = sqlite3.connect(DB_PATH)
-   cursor = connection.cursor()
    if arguments['create'] and arguments['db']:
       # docopt insures that we have a --dbpath
       # does the db file already exist?
       dbpath = arguments['--dbpath']
-      if os.path.exists(dbpath):
-         print('db path already exists')
-         sys.exit(0)
-      else:
-         q = """CREATE TABLE "checksums" (
+      connection = sqlite3.connect(dbpath)
+      cursor = connection.cursor()
+      q = """CREATE TABLE "checksums" (
                "id" INTEGER PRIMARY KEY AUTOINCREMENT,
                "path" TEXT,
                "fn" TEXT,
                "md5" TEXT
                );"""
          
-         cursor.execute(q)
-         print('database created')
-         sys.exit(-1)
+      cursor.execute(q)
+      print('database created')
+      sys.exit(-1)
+         
       print("create db")
    else:
       if arguments['site'] and arguments['transfer']:
@@ -112,6 +110,10 @@ if __name__ == '__main__':
             print('ERROR: db path does not exist')
             sys.exit(-1)
    changed_files = []
+   if connection is None:
+      dbpath = arguments['--dbpath']
+      connection = sqlite3.connect(dbpath)
+      cursor = connection.cursor()
    for root, subdirs, files in os.walk(SRC_DIR):
       for file in files:
          with open(os.path.join(root, file), 'rb') as _file:
