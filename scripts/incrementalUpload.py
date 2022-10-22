@@ -116,6 +116,7 @@ if __name__ == '__main__':
       cursor = connection.cursor()
    for root, subdirs, files in os.walk(SRC_DIR):
       for file in files:
+#        print(file)
          with open(os.path.join(root, file), 'rb') as _file:
             if file == ".DS_Store":
                continue

@@ -10,6 +10,11 @@ type: "readings"
 ---
 A compilation of books and short works of fiction that I've read by year along with a few comments about each. Books marked with **(A)** were audiobooks.
 
+## 2022
+
+- **Surviving Autocracy (Masha Gessen)**
+- **Stolen Focus: Why you can't pay attention - and how to think deeply again (Johann Hari)**
+
 ## 2021
 
 I have some stretch goals for reading this year.

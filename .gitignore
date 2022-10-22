@@ -3,3 +3,4 @@ public/
 resources/_gen/*
 /static/css
 /.hugo_build.lock
+/checksums.db
